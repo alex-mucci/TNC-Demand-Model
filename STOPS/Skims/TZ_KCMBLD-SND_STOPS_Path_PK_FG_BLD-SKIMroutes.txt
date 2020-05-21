@@ -1,0 +1,260 @@
+route_no,route_id,orig_route_id,route_short_name,route_long_name,route_desc,route_type,route_used
+         1,100133    ,100133                   ,240                                     ,                                        ,Bellevue\Renton                         , 3, 0
+         2,100124    ,100124                   ,232                                     ,                                        ,Bellevue/Redmond                        , 3, 0
+         3,100064    ,100064                   ,173                                     ,                                        ,Federal Way to E Marginal Wy & Boeing   , 3, 0
+         4,100261    ,100261                   ,68                                      ,                                        ,Northgate to UW Campus via 25 NE        , 3, 0
+         5,100265    ,100265                   ,71                                      ,                                        ,View Ridge                              , 3, 0
+         6,102554    ,102554                   ,241                                     ,                                        ,Eastgate Factoria BTC Fall 11           , 3, 0
+         7,100183    ,100183                   ,309                                     ,                                        ,Kenmore - S Lk Union - First Hill       , 3, 0
+         8,100053    ,100053                   ,16                                      ,                                        ,Meridian                                , 3, 0
+         9,100132    ,100132                   ,24                                      ,                                        ,Magnolia via W Government Wy            , 3, 0
+        10,100221    ,100221                   ,41                                      ,                                        ,Lake City/Northgate/CBD                 , 3, 0
+        11,100275    ,100275                   ,8                                       ,                                        ,Cap.Hill/Denny Wy                       , 3, 0
+        12,100146    ,100146                   ,255                                     ,                                        ,Seattle/Kirkland/Kingsgate (Tunnel)     , 3, 0
+        13,100102    ,100102                   ,210                                     ,                                        ,Issaquah                                , 3, 0
+        14,100072    ,100072                   ,181                                     ,                                        ,Green River CC/Auburn/Federal Way       , 3, 0
+        15,100224    ,100224                   ,44                                      ,                                        ,ballard/montlake                        , 3, 0
+        16,100186    ,100186                   ,311                                     ,                                        ,Seattle/Woodinville                     , 3, 0
+        17,100135    ,100135                   ,243                                     ,                                        ,Jackson Park to Wilburton P&R           , 3, 0
+        18,100017    ,100017                   ,119                                     ,                                        ,Dockton                                 , 3, 0
+        19,100249    ,100249                   ,60                                      ,                                        ,Beacon Hill/Broadway dist Shuttle       , 3, 0
+        20,100001    ,100001                   ,1                                       ,                                        ,kinnear                                 , 3, 0
+        21,100277    ,100277                   ,82                                      ,                                        ,Queen Anne/Greenwood Owl trips          , 3, 0
+        22,100003    ,100003                   ,101                                     ,                                        ,Renton Transit Center to CBD            , 3, 0
+        23,100263    ,100263                   ,7                                       ,                                        ,Route 7                                 , 3, 0
+        24,100134    ,100134                   ,242                                     ,                                        ,North Seattle to Overlake               , 3, 0
+        25,100143    ,100143                   ,252                                     ,                                        ,Seattle/Kingsgate Via SR-520/I-405      , 3, 0
+        26,100180    ,100180                   ,306                                     ,                                        ,Kenmore tunnel route                    , 3, 0
+        27,100129    ,100129                   ,237                                     ,                                        ,Bellevue/Woodinville                    , 3, 0
+        28,100230    ,100230                   ,50                                      ,                                        ,Seward Park/Alki                        , 3, 0
+        29,100156    ,100156                   ,265                                     ,                                        ,Redmond/Seattle Express                 , 3, 0
+        30,100487    ,100487                   ,102                                     ,                                        ,Fairwood - Seattle                      , 3, 0
+        31,100212    ,100212                   ,37                                      ,                                        ,Alki                                    , 3, 0
+        32,100039    ,100039                   ,14                                      ,                                        ,Mt Baker                                , 3, 0
+        33,100045    ,100045                   ,150                                     ,                                        ,Kent-Southcenter to C.B.D. & Tunnel     , 3, 0
+        34,100051    ,100051                   ,158                                     ,                                        ,E. Kent--Lk. Meridian Via I-5 & Seneca S, 3, 0
+        35,100082    ,100082                   ,190                                     ,                                        ,Star Lk. P&R Via SODO Wy                , 3, 0
+        36,100348    ,100348                   ,99                                      ,                                        ,Waterfront                              , 3, 0
+        37,102572    ,102572                   ,29                                      ,                                        ,Ballard - West Queen Anne (old 2express , 3, 0
+        38,100107    ,100107                   ,215                                     ,                                        ,N Bend  Seattle                         , 3, 0
+        39,100126    ,100126                   ,234                                     ,                                        ,Bellevue/Kirkland/Kenmore               , 3, 0
+        40,100111    ,100111                   ,22                                      ,                                        ,West Seattle/White Center               , 3, 0
+        41,100140    ,100140                   ,25                                      ,                                        ,Laurelhurst-Lakeview                    , 3, 0
+        42,100088    ,100088                   ,197                                     ,                                        ,Twin Lakes P&R/Federal Way/Univ Dist    , 3, 0
+        43,100062    ,100062                   ,17                                      ,                                        ,Sunset Hill                             , 3, 0
+        44,100019    ,100019                   ,120                                     ,                                        ,Burien to Seattle via Ambaum & Delridge , 3, 0
+        45,100475    ,100475                   ,157                                     ,                                        ,Lake Meridian PR - Seattle              , 3, 0
+        46,100228    ,100228                   ,48                                      ,                                        ,Loyal Heights/Mt Baker TC               , 3, 0
+        47,100238    ,100238                   ,55                                      ,                                        ,W. Sea. Admiral Dist                    , 3, 0
+        48,100100    ,100100                   ,209                                     ,                                        ,Issaquah/North Bend Shuttle             , 3, 0
+        49,100068    ,100068                   ,177                                     ,                                        ,Federal Way P&R Via I-5 --Tunnel        , 3, 0
+        50,100269    ,100269                   ,75                                      ,                                        ,UW - NTC - Ballard                      , 3, 0
+        51,100020    ,100020                   ,121                                     ,                                        ,Normandy Park express                   , 3, 0
+        52,100170    ,100170                   ,280                                     ,                                        ,Seattle/Bellevue/Renton OWL             , 3, 0
+        53,100184    ,100184                   ,31                                      ,                                        ,Magnolia to University                  , 3, 0
+        54,100137    ,100137                   ,246                                     ,                                        ,Bellevue/Somerset/Factoria - old        , 3, 0
+        55,100040    ,100040                   ,140                                     ,                                        ,Renton to Burien                        , 3, 0
+        56,100030    ,100030                   ,131                                     ,                                        ,Normandy Park                           , 3, 0
+        57,100476    ,100476                   ,244                                     ,                                        ,Kenmore Kingsgate Overlake              , 3, 0
+        58,100073    ,100073                   ,182                                     ,                                        ,Federal Way-NE Tacoma                   , 3, 0
+        59,100174    ,100174                   ,30                                      ,                                        ,Sandpoint/U-Dist                        , 3, 0
+        60,100160    ,100160                   ,269                                     ,                                        ,Issaquah Plateau                        , 3, 0
+        61,100049    ,100049                   ,154                                     ,                                        ,Tukwila Station  - Federal Center S.    , 3, 0
+        62,100057    ,100057                   ,164                                     ,                                        ,GGreen River Coll-Kent P&R Via Lk. Merid, 3, 0
+        63,100009    ,100009                   ,11                                      ,                                        ,Madison                                 , 3, 0
+        64,100193    ,100193                   ,32                                      ,                                        ,Seattle Center to U-District            , 3, 0
+        65,100278    ,100278                   ,83                                      ,                                        ,Univ Dist/Ravenna Night Owl             , 3, 0
+        66,100173    ,100173                   ,3                                       ,                                        ,Route 3                                 , 3, 0
+        67,100059    ,100059                   ,167                                     ,                                        ,Auburn-Kent-Renton-Univ Dist            , 3, 0
+        68,100005    ,100005                   ,106                                     ,                                        ,Renton-Downtown Seattle                 , 3, 0
+        69,100108    ,100108                   ,216                                     ,                                        ,Sammamish/CBD                           , 3, 0
+        70,100021    ,100021                   ,122                                     ,                                        ,Des moines express                      , 3, 0
+        71,100219    ,100219                   ,4                                       ,                                        ,Route 4                                 , 3, 0
+        72,100069    ,100069                   ,178                                     ,                                        ,South Fed Way & Fed P&R                 , 3, 0
+        73,100101    ,100101                   ,21                                      ,                                        ,35  Av SW/Arbor Heights                 , 3, 0
+        74,100077    ,100077                   ,186                                     ,                                        ,Auburn/Enumclaw Shuttle                 , 3, 0
+        75,100169    ,100169                   ,28                                      ,                                        ,Broadview                               , 3, 0
+        76,100177    ,100177                   ,303                                     ,                                        ,Shoreline - NTC - First Hill            , 3, 0
+        77,100006    ,100006                   ,107                                     ,                                        ,Rainier Beach/Renton Shuttle            , 3, 0
+        78,100092    ,100092                   ,201                                     ,                                        ,West Mercer Way Shuttle                 , 3, 0
+        79,100127    ,100127                   ,235                                     ,                                        ,BTC To Kingsgate Fall 2011              , 3, 0
+        80,100084    ,100084                   ,192                                     ,                                        ,S. Military Rd. - K.D.M. - I-5 to Seneca, 3, 0
+        81,100018    ,100018                   ,12                                      ,                                        ,interlaken park                         , 3, 0
+        82,100004    ,100004                   ,105                                     ,                                        ,Renton Hub - Renton Highlands           , 3, 0
+        83,100205    ,100205                   ,348                                     ,                                        ,NTC - Richmond Beach                    , 3, 0
+        84,100022    ,100022                   ,123                                     ,                                        ,Gregory Heights express                 , 3, 0
+        85,100152    ,100152                   ,260                                     ,                                        ,Seattle/Juanita/Finn Hill               , 3, 0
+        86,100105    ,100105                   ,213                                     ,                                        ,Covenant Shores Van Shuttle             , 3, 0
+        87,100038    ,100038                   ,139                                     ,                                        ,Burien/Gregory Heights Shuttle          , 3, 0
+        88,100011    ,100011                   ,111                                     ,                                        ,East Renton to C.B.D. Via I-405 & I-90  , 3, 0
+        89,100201    ,100201                   ,342                                     ,                                        ,Renton/Shoreline via Bell.&Bothell. for , 3, 0
+        90,100229    ,100229                   ,5                                       ,                                        ,Greenwood/SCC/Northgate                 , 3, 0
+        91,100459    ,100459                   ,218                                     ,                                        ,Issaquah Highlands CBD                  , 3, 0
+        92,100178    ,100178                   ,304                                     ,                                        ,Richmond Beach via Dayton               , 3, 0
+        93,100267    ,100267                   ,73                                      ,                                        ,Jackson Park                            , 3, 0
+        94,100024    ,100024                   ,125                                     ,                                        ,Shorewood to CBD via SSCC               , 3, 0
+        95,100052    ,100052                   ,159                                     ,                                        ,Kent-Kangley-Timberlane--I-5-Seneca St. , 3, 0
+        96,100264    ,100264                   ,70                                      ,                                        ,University District                     , 3, 0
+        97,100010    ,100010                   ,110                                     ,                                        ,Renton Shuttle                          , 3, 0
+        98,100256    ,100256                   ,66                                      ,                                        ,S Mass to NTC                           , 3, 0
+        99,100109    ,100109                   ,217                                     ,                                        ,Issaquah/CBD                            , 3, 0
+       100,100447    ,100447                   ,49                                      ,                                        ,CBD-Cap Hill-U Dist                     , 3, 0
+       101,100089    ,100089                   ,2                                       ,                                        ,Route 2                                 , 3, 0
+       102,100070    ,100070                   ,179                                     ,                                        ,Twin Lakes P&R - Downtown               , 3, 0
+       103,100048    ,100048                   ,153                                     ,                                        ,Kent/Renton Shuttle                     , 3, 0
+       104,100071    ,100071                   ,18                                      ,                                        ,North Beach/Downtown                    , 3, 0
+       105,100078    ,100078                   ,187                                     ,                                        ,Federal Way/Twin Lakes                  , 3, 0
+       106,100196    ,100196                   ,331                                     ,                                        ,S03: Kenmore - SCC                      , 3, 0
+       107,100508    ,100508                   ,823                                     ,                                        ,Cougar Mt/NewportHS/IntlHS 823          , 3, 0
+       108,100161    ,100161                   ,27                                      ,                                        ,Yesler-Leschi Park                      , 3, 0
+       109,100190    ,100190                   ,316                                     ,                                        ,Meridian Park express                   , 3, 0
+       110,100195    ,100195                   ,330                                     ,                                        ,Lake City - Shoreline CC                , 3, 0
+       111,100509    ,100509                   ,824                                     ,                                        ,Newcastle/Factoria/International School , 3, 0
+       112,100214    ,100214                   ,372                                     ,                                        ,Woodinville/University                  , 3, 0
+       113,100060    ,100060                   ,168                                     ,                                        ,Timberlane - Kent Rail Station          , 3, 0
+       114,100254    ,100254                   ,65                                      ,                                        ,NTC to UW                               , 3, 0
+       115,100136    ,100136                   ,245                                     ,                                        ,Factoria - Kirkland                     , 3, 0
+       116,100493    ,100493                   ,224                                     ,                                        ,Fall City Redmond Shuttle               , 3, 0
+       117,100042    ,100042                   ,148                                     ,                                        ,Fairwood--S.Renton Hub Shuttle.         , 3, 0
+       118,100194    ,100194                   ,33                                      ,                                        ,Ft Lawton                               , 3, 0
+       119,100258    ,100258                   ,661                                     ,                                        ,tripper storage shuttle                 , 3, 0
+       120,100130    ,100130                   ,238                                     ,                                        ,UWB Bothell CC/KTC shuttle              , 3, 0
+       121,100058    ,100058                   ,166                                     ,                                        ,Highline C C to Kent P&R                , 3, 0
+       122,100026    ,100026                   ,128                                     ,                                        ,West Seattle-White Center to SouthCenter, 3, 0
+       123,100279    ,100279                   ,84                                      ,                                        ,E Cherry/E Madison All Nighter          , 3, 0
+       124,100489    ,100489                   ,156                                     ,                                        ,SeaTac - Southcenter                    , 3, 0
+       125,100324    ,100324                   ,952                                     ,                                        ,Auburn P&R to Boeing Everett            , 3, 0
+       126,100106    ,100106                   ,214                                     ,                                        ,Seattle - Issaquah 908                  , 3, 0
+       127,100151    ,100151                   ,26                                      ,                                        ,Latona                                  , 3, 0
+       128,100141    ,100141                   ,250                                     ,                                        ,Seattle/Overlake/Redmond                , 3, 0
+       129,100047    ,100047                   ,152                                     ,                                        ,Enumclaw-Auburn-Star Lk. I-5 to C.B.D.  , 3, 0
+       130,100268    ,100268                   ,74                                      ,                                        ,Sandpoint/U-Dist/CPS                    , 3, 0
+       131,100223    ,100223                   ,43                                      ,                                        ,cbd/u-district                          , 3, 0
+       132,100222    ,100222                   ,42                                      ,                                        ,Martin Luther King WY                   , 3, 0
+       133,100028    ,100028                   ,13                                      ,                                        ,seattle pacific university              , 3, 0
+       134,102574    ,102574                   ,40                                      ,                                        ,CBD-NGTC via Fremont & Ballard          , 3, 0
+       135,100002    ,100002                   ,10                                      ,                                        ,capitol hill                            , 3, 0
+       136,100271    ,100271                   ,77                                      ,                                        ,Jackson Park Express                    , 3, 0
+       137,100251    ,100251                   ,601                                     ,                                        ,Group Health Coop - CBD                 , 3, 0
+       138,100266    ,100266                   ,72                                      ,                                        ,Lake City                               , 3, 0
+       139,100469    ,100469                   ,180                                     ,                                        ,Auburn  Kent  SeaTac  Burien            , 3, 0
+       140,100471    ,100471                   ,161                                     ,                                        ,Lk Meridian - Seattle                   , 3, 0
+       141,102552    ,102552                   ,226                                     ,                                        ,BTC Crossroads Eastgate Fall 11         , 3, 0
+       142,100246    ,100246                   ,57                                      ,                                        ,Admiral Way/Genesee Hill                , 3, 0
+       143,102578    ,102578                   ,61                                      ,                                        ,Ballard - North Beach Loop              , 3, 0
+       144,100103    ,100103                   ,211                                     ,                                        ,Issa Hlnds PR\Eastgate\First Hill 911   , 3, 0
+       145,100162    ,100162                   ,271                                     ,                                        ,Issaquah to U Dist                      , 3, 0
+       146,100175    ,100175                   ,301                                     ,                                        ,Aurora Village-Downtown Seattle         , 3, 0
+       147,100242    ,100242                   ,56                                      ,                                        ,Admiral Way/Alki                        , 3, 0
+       148,100044    ,100044                   ,15                                      ,                                        ,Blue Ridge/Downtown                     , 3, 0
+       149,100203    ,100203                   ,346                                     ,                                        ,Aurora Village - NTC                    , 3, 0
+       150,100495    ,100495                   ,193                                     ,                                        ,Star Lk. to First Hill                  , 3, 0
+       151,100023    ,100023                   ,124                                     ,                                        ,Tukwila - E Marginal - CBD              , 3, 0
+       152,100041    ,100041                   ,143                                     ,                                        ,Maple Valley & Renton to C.B.D. Via Sr 9, 3, 0
+       153,100270    ,100270                   ,76                                      ,                                        ,Wedgwood Express                        , 3, 0
+       154,100262    ,100262                   ,688                                     ,                                        ,Center Park                             , 3, 0
+       155,100094    ,100094                   ,203                                     ,                                        ,Shorewood Van Shuttle                   , 3, 0
+       156,100128    ,100128                   ,236                                     ,                                        ,Woodinville/KTC shuttle                 , 3, 0
+       157,100104    ,100104                   ,212                                     ,                                        ,Eastgate P & R Express (Tunnel)         , 3, 0
+       158,100091    ,100091                   ,200                                     ,                                        ,Issaquah Shuttle                        , 3, 0
+       159,100081    ,100081                   ,19                                      ,                                        ,Magnolia                                , 3, 0
+       160,100210    ,100210                   ,36                                      ,                                        ,Jefferson Park/Rainier Beach            , 3, 0
+       161,100061    ,100061                   ,169                                     ,                                        ,Renton to Kent Via Benson               , 3, 0
+       162,100095    ,100095                   ,204                                     ,                                        ,Island Crest Wy/S Mercer Shuttle        , 3, 0
+       163,100093    ,100093                   ,202                                     ,                                        ,Mercer Island                           , 3, 0
+       164,100096    ,100096                   ,205                                     ,                                        ,Mercer Island/U district                , 3, 0
+       165,100253    ,100253                   ,64                                      ,                                        ,Lake City - CBD - First Hill            , 3, 0
+       166,100139    ,100139                   ,249                                     ,                                        ,Bellevue/Overlake/Redmond               , 3, 0
+       167,100148    ,100148                   ,257                                     ,                                        ,Seattle/Juanita/Kingsgate               , 3, 0
+       168,100187    ,100187                   ,312                                     ,                                        ,Woodinville/Bothell Express route       , 3, 0
+       169,100113    ,100113                   ,221                                     ,                                        ,Eastgate\Redmond                        , 3, 0
+       170,100050    ,100050                   ,155                                     ,                                        ,FAIRWOOD TO SOUTHCENTER                 , 3, 0
+       171,100448    ,100448                   ,248                                     ,                                        ,Redmond-Kirkland                        , 3, 0
+       172,100215    ,100215                   ,373                                     ,                                        ,Aurora Village - University District    , 3, 0
+       173,100182    ,100182                   ,308                                     ,                                        ,Aurora Village Via Lake Forest Park     , 3, 0
+       174,100013    ,100013                   ,114                                     ,                                        ,Renton Highlands to C.D.B. Via I-405 & I, 3, 0
+       175,100289    ,100289                   ,9                                       ,                                        ,broadway  /  rainier                    , 3, 0
+       176,100252    ,100252                   ,62                                      ,                                        ,SODO-Ballard Reverse Peak               , 3, 0
+       177,100014    ,100014                   ,116                                     ,                                        ,Fauntleroy Ferry Dock ONLY              , 3, 0
+       178,100074    ,100074                   ,183                                     ,                                        ,Kent/Federal Way Shuttle                , 3, 0
+       179,100012    ,100012                   ,113                                     ,                                        ,Shorewood  White Center  CBD via SR509  , 3, 0
+       180,100031    ,100031                   ,132                                     ,                                        ,Des Moines                              , 3, 0
+       181,100159    ,100159                   ,268                                     ,                                        ,Seattle/Bear Creek                      , 3, 0
+       182,100259    ,100259                   ,67                                      ,                                        ,Northgate to UW Campus thru Roosevelt   , 3, 0
+       183,100016    ,100016                   ,118                                     ,                                        ,Vashon Is--Tahlequah/Burton             , 3, 0
+       184,100227    ,100227                   ,47                                      ,                                        ,Summit                                  , 3, 0
+       185,100204    ,100204                   ,347                                     ,                                        ,NTC - Mountlake Terrace                 , 3, 0
+       186,100207    ,100207                   ,355                                     ,                                        ,Shoreline Comm Coll/Greenwood           , 3, 0
+       187,100208    ,100208                   ,358                                     ,                                        ,Aurora Express                          , 3, 0
+       188,100168    ,100168                   ,277                                     ,                                        ,Totem Lake/U Dist.                      , 3, 0
+       189,100202    ,100202                   ,345                                     ,                                        ,NTC - SCC                               , 3, 0
+       190,100235    ,100235                   ,540                                     ,                                        ,Kirkland U District                     , 3, 0
+       191,100451    ,100451                   ,556                                     ,                                        ,Issaquah/UW/NTC                         , 3, 0
+       192,100232    ,100232                   ,522                                     ,                                        ,ST 522 Woodinville-Seattle CBD          , 3, 0
+       193,100511    ,100511                   ,542                                     ,                                        ,Redmond U District                      , 3, 0
+       194,100236    ,100236                   ,545                                     ,                                        ,Redmond to CBD Express for Sound Transit, 3, 0
+       195,100240    ,100240                   ,554                                     ,                                        ,ST Issaquah - CBD                       , 3, 0
+       196,100243    ,100243                   ,560                                     ,                                        ,Bellevue - West Seattle                 , 3, 0
+       197,100239    ,100239                   ,550                                     ,                                        ,Bellevue                                , 3, 0
+       198,100241    ,100241                   ,555                                     ,                                        ,Issaquah/NTC                            , 3, 0
+       199,100293    ,100293                   ,908                                     ,                                        ,Renton Highlands DART                   , 3, 0
+       200,100296    ,100296                   ,913                                     ,                                        ,Kent - Riverview                        , 3, 0
+       201,100481    ,100481                   ,775                                     ,                                        ,Water Taxi shuttle Alki loop            , 3, 0
+       202,100272    ,100272                   ,773                                     ,                                        ,West Seattle Water Taxi Shuttle         , 3, 0
+       203,100294    ,100294                   ,909                                     ,                                        ,Highlands/Kennydale DART                , 3, 0
+       204,100300    ,100300                   ,917                                     ,                                        ,Auburn/Algona/Pacific Shuttle           , 3, 0
+       205,100472    ,100472                   ,919                                     ,                                        ,North and Southeast Auburn              , 3, 0
+       206,100292    ,100292                   ,903                                     ,                                        ,Federal Way - S Twin Lakes 903          , 3, 0
+       207,102512    ,102512                   ,910                                     ,                                        ,Supermall - North Auburn                , 3, 0
+       208,100496    ,100496                   ,930                                     ,                                        ,Kingsgate/Redmond/Bear Crk Shuttle      , 3, 0
+       209,102561    ,102561                   ,907                                     ,                                        ,Black Diamond-Maple Valley-Renton TC    , 3, 0
+       210,102558    ,102558                   ,931                                     ,                                        ,Redmond/Woodinville                     , 3, 0
+       211,102557    ,102557                   ,915                                     ,                                        ,Auburn/Enumclaw Shuttle - old           , 3, 0
+       212,100297    ,100297                   ,914                                     ,                                        ,Kent Shopper Shuttle (DART)             , 3, 0
+       213,100290    ,100290                   ,901                                     ,                                        ,Federal Way/Dash Point DART             , 3, 0
+       214,100309    ,100309                   ,927                                     ,                                        ,Issaquah DART                           , 3, 0
+       215,100313    ,100313                   ,935                                     ,                                        ,Kenmore/Finn Hill/Kingsgate P&R         , 3, 0
+       216,100299    ,100299                   ,916                                     ,                                        ,Kent Shuttle (DART)                     , 3, 0
+       217,102339    ,102339                   ,779                                     ,                                        ,Wheels to Water                         , 3, 0
+       218,100284    ,100284                   ,888                                     ,                                        ,Interlake High School                   , 3, 0
+       219,100344    ,100344                   ,986                                     ,                                        ,Lakeside School                         , 3, 0
+       220,100343    ,100343                   ,984                                     ,                                        ,Lakeside School to Central Area         , 3, 0
+       221,100287    ,100287                   ,891                                     ,                                        ,Mercer Island HS South Island           , 3, 0
+       222,100288    ,100288                   ,892                                     ,                                        ,Mercer Island HS North Island           , 3, 0
+       223,100346    ,100346                   ,988                                     ,                                        ,Lakeside School Custom Bus              , 3, 0
+       224,100350    ,100350                   ,994                                     ,                                        ,Downtown/Magnolia/Ballard/Lakeside      , 3, 0
+       225,100347    ,100347                   ,989                                     ,                                        ,Eastgate Lakeside                       , 3, 0
+       226,102555    ,102555                   ,893                                     ,                                        ,911 For Lake Washington High School     , 3, 0
+       227,100341    ,100341                   ,982                                     ,                                        ,Lakeside\UPrep Bear Creek PR            , 3, 0
+       228,100345    ,100345                   ,987                                     ,                                        ,Lakeside School-Rainier Beach           , 3, 0
+       229,100285    ,100285                   ,889                                     ,                                        ,Sammamish HS/International School       , 3, 0
+       230,100342    ,100342                   ,983                                     ,                                        ,Issaquah Lakeside                       , 3, 0
+       231,100351    ,100351                   ,995                                     ,                                        ,Laurelhurst-Lakeside-Evergreen Schools  , 3, 0
+       232,102573    ,102573                   ,887                                     ,                                        ,Bellevue SD Newport BHS Int'l Sch       , 3, 0
+       233,102549    ,102549                   ,980                                     ,                                        ,Lakeside                                , 3, 0
+       234,100473    ,100473                   ,981                                     ,                                        ,Lakeside Activity Bus East              , 3, 0
+       235,100340    ,100340                   ,98                                      ,                                        ,South Lake Union Streetcar              , 0, 0
+       236,100340A   ,100340A                  ,98A                                     ,                                        ,Madison Street Streetcar                , 0, 0
+       237,100479    ,100479                   ,LINK                                    ,                                        ,LINK to Sea-Tac                         , 0, 0
+       238,100336    ,100336                   ,973                                     ,                                        ,West Seattle Water Taxi - Boat Schedule , 4, 0
+       239,100337    ,100337                   ,975                                     ,                                        ,Vashon Passenger-Only Ferry             , 4, 0
+       240,100512    ,100512                   ,A Line                                  ,                                        ,A-Line Rapid Ride                       , 3, 0
+       241,102548    ,102548                   ,B Line                                  ,                                        ,B-Line Rapid Ride                       , 3, 0
+       242,102581    ,102581                   ,674                                     ,                                        ,D-Line Rapid Ride                       , 3, 0
+       243,102576    ,102576                   ,673                                     ,                                        ,C-Line Rapid Ride                       , 3, 0
+       244,SNDR_S    ,SNDR_S                   ,Sounder / South                         ,Sounder / South                         ,Sounder South runs between Pierce County, 2, 0
+       245,SNDR_N    ,SNDR_N                   ,Sounder / North                         ,Sounder / North                         ,Sounder North runs between Everett Stati, 2, 0
+       246,AMTK      ,AMTK                     ,Amtrak                                  ,Amtrak                                  ,Amtrak service supplements Sounder North, 2, 0
+       247,TLINK     ,TLINK                    ,Tacoma Link                             ,Tacoma Link                             ,Tacoma Link provides service through dow, 0, 0
+       248,510N      ,510N                     ,510                                     ,Seattle - Everett                       ,Sound Transit Route                     , 3, 0
+       249,510S      ,510S                     ,510                                     ,Everett - Seattle                       ,Sound Transit Route                     , 3, 0
+       250,511N      ,511N                     ,511                                     ,Seattle - Ash Way                       ,Sound Transit Route                     , 3, 0
+       251,511S      ,511S                     ,511                                     ,Ash Way - Seattle                       ,Sound Transit Route                     , 3, 0
+       252,512N      ,512N                     ,512                                     ,Seattle - Everett                       ,Sound Transit Route                     , 3, 0
+       253,512S      ,512S                     ,512                                     ,Everett - Seattle                       ,Sound Transit Route                     , 3, 0
+       254,513N      ,513N                     ,513                                     ,Seattle - Everett                       ,Sound Transit Route                     , 3, 0
+       255,513S      ,513S                     ,513                                     ,Everett - Seattle                       ,Sound Transit Route                     , 3, 0
+       256,532N      ,532N                     ,532                                     ,Bellevue - Everett                      ,Sound Transit Route                     , 3, 0
+       257,532S      ,532S                     ,532                                     ,Everett - Bellevue                      ,Sound Transit Route                     , 3, 0
+       258,535N      ,535N                     ,535                                     ,Bellevue - Lynnwood                     ,Sound Transit Route                     , 3, 0
+       259,535S      ,535S                     ,535                                     ,Lynnwood - Bellevue                     ,Sound Transit Route                     , 3, 0

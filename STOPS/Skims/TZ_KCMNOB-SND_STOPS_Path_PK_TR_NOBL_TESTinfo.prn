@@ -1,0 +1,85 @@
+GTFPath-v1.50 - 04/07/2015              
+System Name: King Co. Metro/Sound Transit
+Run Name:    Madison Streetcar
+Path Name:   1-Peak TR
+***Warning: frequency record has trip not in trip file or out of time limits TLNBSA                                     
+***Warning: frequency record has trip not in trip file or out of time limits TLSBSA                                     
+***Warning: frequency record has trip not in trip file or out of time limits TLNBSU                                     
+***Warning: frequency record has trip not in trip file or out of time limits TLSBSU                                     
+ 
+Listing of Fixed Guideway Stops IDs
+ 
+STOP_ID    Name                                     Latitude     Longitude
+========== ======================================== ============ ============
+99455      UNIVERSITY STREET                           47.607246  -122.335754
+99501      PIONEER SQUARE                              47.602139  -122.331055
+99532      PIONEER SQUARE                              47.603199  -122.331581
+99565      UNIVERSITY STREET                           47.608246  -122.336166
+99621      INT'L DISTRICT                              47.598450  -122.327820
+99623      INT'L DISTRICT                              47.597660  -122.328217
+91108      WESTLAKE STATION                            47.611393  -122.337509
+91121      WESTLAKE STATION                            47.611801  -122.335823
+1619       WESTLAKE AVE & VIRGINIA ST                  47.614864  -122.337860
+1630       WESTLAKE AVE & OLIVE WAY                    47.613281  -122.337547
+1888       VASHON PASS FERRY & PIER 50                 47.601521  -122.337929
+1889       VASHON PASS FERRY & PIER 50                 47.601635  -122.338051
+1907       WATER TAXI ROUTE & WATER TAXI ROUTE         47.601204  -122.338997
+1908       WATER TAXI ROUTE & WATER TAXI ROUTE         47.601067  -122.338951
+26641      WESTLAKE AVE N & MERCER ST                  47.624348  -122.338547
+26645      WESTLAKE AVE N & HARRISON ST                47.621380  -122.338570
+26665      WESTLAKE AVE & 9TH AVE                      47.617607  -122.338425
+26680      WESTLAKE AVE & OLIVE WAY                    47.613293  -122.337341
+26681      STREETCAR STOP 4th/Pine                     47.611763  -122.336563
+26689      WESTLAKE AVE & 7TH AVE                      47.615623  -122.337807
+26690      WESTLAKE AVE & 9TH AVE                      47.618267  -122.338341
+26693      TERRY AVE N & THOMAS ST                     47.621502  -122.337051
+26698      TERRY AVE N & REPUBLICAN ST                 47.623417  -122.337044
+26700      FAIRVIEW AVE N & WARD ST                    47.627666  -122.332367
+26701      SLU STREETCAR & TERRY AVE N                 47.625832  -122.336372
+26702      SLU STREETCAR & TERRY AVE N                 47.625969  -122.336533
+26705      FAIRVIEW AVE N & ALOHA ST                   47.627586  -122.332207
+55578      ST LIGHT RAIL & S HENDERSON ST              47.522953  -122.279083
+55656      ST LIGHT RAIL & S MYRTLE ST                 47.538483  -122.281677
+55778      ST LIGHT RAIL & S ALASKA ST                 47.560280  -122.292892
+55860      ST LIGHT RAIL & S STEVENS ST                47.576992  -122.297867
+55949      ST LIGHT RAIL & S STEVENS ST                47.576439  -122.297737
+56039      ST LIGHT RAIL & S EDMUNDS ST                47.558952  -122.292343
+56159      ST LIGHT RAIL & S OTHELLO ST                47.537529  -122.281471
+56173      ST LIGHT RAIL & S HENDERSON ST              47.522266  -122.279587
+99101      ST LIGHT RAIL & S ROYAL BROUGHAM WAY        47.591812  -122.327354
+99111      S T LINK & SODO STA                         47.579952  -122.327522
+99121      ST LIGHT RAIL & BEACON AVE S                47.579124  -122.311279
+99240      ST LIGHT RAIL & BEACON AVE S                47.579678  -122.311401
+99256      S T LINK & SODO STA                         47.580589  -122.327263
+99260      ST LIGHT RAIL & S ROYAL BROUGHAM WAY        47.592281  -122.326988
+99900      LINK LIGHT RAIL & TUKWILA STATION           47.464272  -122.288399
+99903      ST LIGHT RAIL & SEATAC ACS                  47.444939  -122.296715
+99904      ST LIGHT RAIL & SEATAC ACS                  47.444908  -122.297058
+99905      ST LIGHT RAIL & TUKWILA LLR ACS             47.463924  -122.288002
+99908      VASHON PASS FERRY & VASHON FERRY DOCK       47.510941  -122.464722
+99909      VASHON PASS FERRY & VASHON FERRY DOCK       47.510941  -122.464523
+99997      WATER TAXI ROUTE & HARBOR AVE SW            47.589867  -122.379784
+99998      WATER TAXI ROUTE & HARBOR AVE SW            47.589745  -122.379692
+S_EV       Everett Station                             47.974949  -122.197258
+S_MU       Mukilteo Station                            47.948372  -122.301056
+S_ED       Edmonds Station                             47.811153  -122.384369
+S_KS       King Street Station                         47.597702  -122.329453
+S_TK_NB    Tukwila Station (Northbound)                47.460300  -122.240364
+S_TK_SB    Tukwila Station (Southbound)                47.460430  -122.240509
+S_KE_NB    Kent Station (Northbound)                   47.384022  -122.232903
+S_KE_SB    Kent Station (Southbound)                   47.384258  -122.233154
+S_AU_NB    Auburn Station (Northbound)                 47.306297  -122.232140
+S_AU_SB    Auburn Station (Southbound)                 47.306297  -122.232376
+S_SU_NB    Sumner Station (Northbound)                 47.201420  -122.244499
+S_SU_SB    Sumner Station (Southbound)                 47.201218  -122.245033
+S_PU_NB    Puyallup Station (Northbound)               47.192635  -122.295647
+S_PU_SB    Puyallup Station (Southbound)               47.192738  -122.295349
+S_TD       Tacoma Dome Station                         47.239571  -122.428741
+S_ST       South Tacoma Station                        47.203491  -122.485550
+S_LW       Lakewood Station                            47.153191  -122.499100
+TL_THD     Theater District Station                    47.256199  -122.439964
+TL_CS      Commerce Street Station                     47.254002  -122.439003
+TL_CC      Convention Center Station                   47.249496  -122.438553
+TL_US      Union Station                               47.244865  -122.436623
+TL_TD      Tacoma Dome Station                         47.239868  -122.428116
+TL_25      South 25th Street Station                   47.239082  -122.434204

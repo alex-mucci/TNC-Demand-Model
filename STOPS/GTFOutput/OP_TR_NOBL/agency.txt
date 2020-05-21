@@ -1,0 +1,2 @@
+agency_name,agency_url,agency_timezone
+"King Co. Metro/Sound Transit",http://www.fta.dot.gov/,America/New_York

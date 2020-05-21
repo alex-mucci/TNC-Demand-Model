@@ -1,0 +1,565 @@
+ nmessage    1     1. STOPS-v1.50 - 05/06/2015                                                                                        
+ nmessage    2     2. Starting date/time:  5/20/2020 at 13:09:47                                                                      
+ nmessage    3     3. Control filename: GTFPath C:\Workspace\TNC-Demand-Model\STOPS\scratch\STOPSCtl.ctl                              
+ nmessage    4     4. Directory: C:\Workspace\TNC-Demand-Model\STOPS\scratch\                                                         
+ nmessage    5     5.  Reading Survey Data                                                                                            
+ nmessage    6     6.  Reading CTPP Data and Estimating Trips                                                                         
+ nmessage    7     7. Calibration Iteration (iteration 1)                                                                             
+ nmessage    8     8.                                                                                                                 
+ nmessage    8     8. +Reading CTPP Data and Estimating Trips for iter  1, Scenario  1: Y2010 EXISTING                                
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      10000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      20000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      30000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      40000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      50000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      60000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      70000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      80000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      90000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      10000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      20000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      30000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      40000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      50000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      60000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      70000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      80000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      90000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      10000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      20000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      30000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      40000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      50000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      60000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      70000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      80000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      90000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      10000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      20000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      30000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      40000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      50000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      60000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      70000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      80000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      90000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      10000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      20000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      30000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      40000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      50000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      60000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      70000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      80000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      90000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      10000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      20000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      30000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      40000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      50000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      60000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      70000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      80000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      90000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      10000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      20000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      30000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      40000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      50000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      60000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      70000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      80000           
+ nmessage    8     8. +Reading CTPP data for Iter:  1, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      90000           
+ nmessage    9     9. Model Application AFTER Station Boarding Calibration                                                            
+ nmessage   10    10.                                                                                                                 
+ nmessage   10    10. +Reading CTPP Data and Estimating Trips for iter  2, Scenario  1: Y2010 EXISTING                                
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      10000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      20000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      30000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      40000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      50000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      60000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      70000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      80000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 1 Record:      90000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      10000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      20000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      30000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      40000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      50000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      60000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      70000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      80000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 2 Record:      90000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      10000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      20000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      30000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      40000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      50000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      60000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      70000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      80000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  1: Y2010 EXISTING            Purpose: 3 Record:      90000           
+ nmessage   10    10. +Reading CTPP Data and Estimating Trips for iter  2, Scenario  2: Y2010 NO-BUILD                                
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 1 Record:      10000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 1 Record:      20000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 1 Record:      30000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 1 Record:      40000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 1 Record:      50000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 1 Record:      60000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 1 Record:      70000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 1 Record:      80000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 1 Record:      90000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 2 Record:      10000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 2 Record:      20000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 2 Record:      30000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 2 Record:      40000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 2 Record:      50000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 2 Record:      60000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 2 Record:      70000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 2 Record:      80000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 2 Record:      90000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 3 Record:      10000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 3 Record:      20000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 3 Record:      30000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 3 Record:      40000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 3 Record:      50000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 3 Record:      60000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 3 Record:      70000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 3 Record:      80000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  2: Y2010 NO-BUILD            Purpose: 3 Record:      90000           
+ nmessage   10    10. +Reading CTPP Data and Estimating Trips for iter  2, Scenario  3: Y2010 BUILD                                   
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 1 Record:      10000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 1 Record:      20000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 1 Record:      30000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 1 Record:      40000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 1 Record:      50000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 1 Record:      60000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 1 Record:      70000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 1 Record:      80000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 1 Record:      90000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 2 Record:      10000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 2 Record:      20000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 2 Record:      30000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 2 Record:      40000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 2 Record:      50000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 2 Record:      60000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 2 Record:      70000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 2 Record:      80000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 2 Record:      90000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 3 Record:      10000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 3 Record:      20000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 3 Record:      30000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 3 Record:      40000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 3 Record:      50000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 3 Record:      60000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 3 Record:      70000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 3 Record:      80000           
+ nmessage   10    10. +Reading CTPP data for Iter:  2, Scenario  3: Y2010 BUILD               Purpose: 3 Record:      90000           
+ nmessage   11    11. Preparing Summary Output Files                                                                                  
+ nmessage   12    12.   Scenario                                                                                                      
+ nmessage   12    12. + Scenario EXST                                                                                                 
+ nmessage   12    12. + Scenario EXST, record                10000                                                                    
+ nmessage   12    12. + Scenario EXST, record                20000                                                                    
+ nmessage   12    12. + Scenario EXST, record                30000                                                                    
+ nmessage   12    12. + Scenario EXST, record                40000                                                                    
+ nmessage   12    12. + Scenario EXST, record                50000                                                                    
+ nmessage   12    12. + Scenario EXST, record                60000                                                                    
+ nmessage   12    12. + Scenario EXST, record                70000                                                                    
+ nmessage   12    12. + Scenario EXST, record                80000                                                                    
+ nmessage   12    12. + Scenario EXST, record                90000                                                                    
+ nmessage   12    12. + Scenario EXST, record               100000                                                                    
+ nmessage   12    12. + Scenario EXST, record               110000                                                                    
+ nmessage   12    12. + Scenario EXST, record               120000                                                                    
+ nmessage   12    12. + Scenario EXST, record               130000                                                                    
+ nmessage   12    12. + Scenario EXST, record               140000                                                                    
+ nmessage   12    12. + Scenario EXST, record               150000                                                                    
+ nmessage   12    12. + Scenario EXST, record               160000                                                                    
+ nmessage   12    12. + Scenario EXST, record               170000                                                                    
+ nmessage   12    12. + Scenario EXST, record               180000                                                                    
+ nmessage   12    12. + Scenario EXST, record               190000                                                                    
+ nmessage   12    12. + Scenario EXST, record               200000                                                                    
+ nmessage   12    12. + Scenario EXST, record               210000                                                                    
+ nmessage   12    12. + Scenario EXST, record               220000                                                                    
+ nmessage   12    12. + Scenario EXST, record               230000                                                                    
+ nmessage   12    12. + Scenario EXST, record               240000                                                                    
+ nmessage   12    12. + Scenario EXST, record               250000                                                                    
+ nmessage   12    12. + Scenario EXST, record               260000                                                                    
+ nmessage   12    12. + Scenario EXST, record               270000                                                                    
+ nmessage   12    12. + Scenario NOBL                                                                                                 
+ nmessage   12    12. + Scenario NOBL, record                10000                                                                    
+ nmessage   12    12. + Scenario NOBL, record                20000                                                                    
+ nmessage   12    12. + Scenario NOBL, record                30000                                                                    
+ nmessage   12    12. + Scenario NOBL, record                40000                                                                    
+ nmessage   12    12. + Scenario NOBL, record                50000                                                                    
+ nmessage   12    12. + Scenario NOBL, record                60000                                                                    
+ nmessage   12    12. + Scenario NOBL, record                70000                                                                    
+ nmessage   12    12. + Scenario NOBL, record                80000                                                                    
+ nmessage   12    12. + Scenario NOBL, record                90000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               100000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               110000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               120000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               130000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               140000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               150000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               160000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               170000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               180000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               190000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               200000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               210000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               220000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               230000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               240000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               250000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               260000                                                                    
+ nmessage   12    12. + Scenario NOBL, record               270000                                                                    
+ nmessage   12    12. + Scenario BLD-                                                                                                 
+ nmessage   12    12. + Scenario BLD-, record                10000                                                                    
+ nmessage   12    12. + Scenario BLD-, record                20000                                                                    
+ nmessage   12    12. + Scenario BLD-, record                30000                                                                    
+ nmessage   12    12. + Scenario BLD-, record                40000                                                                    
+ nmessage   12    12. + Scenario BLD-, record                50000                                                                    
+ nmessage   12    12. + Scenario BLD-, record                60000                                                                    
+ nmessage   12    12. + Scenario BLD-, record                70000                                                                    
+ nmessage   12    12. + Scenario BLD-, record                80000                                                                    
+ nmessage   12    12. + Scenario BLD-, record                90000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               100000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               110000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               120000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               130000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               140000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               150000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               160000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               170000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               180000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               190000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               200000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               210000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               220000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               230000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               240000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               250000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               260000                                                                    
+ nmessage   12    12. + Scenario BLD-, record               270000                                                                    
+ nmessage   12    12. + Scenario PROJ                                                                                                 
+ nmessage   12    12. + Scenario PROJ, record                10000                                                                    
+ nmessage   12    12. + Scenario PROJ, record                20000                                                                    
+ nmessage   12    12. + Scenario PROJ, record                30000                                                                    
+ nmessage   12    12. + Scenario PROJ, record                40000                                                                    
+ nmessage   12    12. + Scenario PROJ, record                50000                                                                    
+ nmessage   12    12. + Scenario PROJ, record                60000                                                                    
+ nmessage   12    12. + Scenario PROJ, record                70000                                                                    
+ nmessage   12    12. + Scenario PROJ, record                80000                                                                    
+ nmessage   12    12. + Scenario PROJ, record                90000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               100000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               110000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               120000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               130000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               140000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               150000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               160000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               170000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               180000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               190000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               200000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               210000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               220000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               230000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               240000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               250000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               260000                                                                    
+ nmessage   12    12. + Scenario PROJ, record               270000                                                                    
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW                                                                  
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record                10000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record                20000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record                30000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record                40000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record                50000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record                60000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record                70000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record                80000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record                90000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               100000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               110000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               120000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               130000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               140000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               150000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               160000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               170000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               180000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               190000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               200000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               210000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               220000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               230000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               240000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               250000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               260000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               270000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               280000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               290000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               300000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               310000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               320000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               330000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               340000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               350000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBW, record               360000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO                                                                  
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record                10000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record                20000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record                30000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record                40000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record                50000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record                60000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record                70000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record                80000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record                90000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               100000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               110000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               120000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               130000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               140000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               150000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               160000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               170000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               180000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               190000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               200000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               210000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               220000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               230000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               240000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               250000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               260000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               270000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               280000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               290000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               300000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               310000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               320000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               330000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               340000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               350000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File HBO, record               360000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB                                                                  
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record                10000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record                20000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record                30000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record                40000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record                50000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record                60000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record                70000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record                80000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record                90000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               100000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               110000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               120000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               130000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               140000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               150000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               160000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               170000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               180000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               190000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               200000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               210000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               220000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               230000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               240000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               250000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               260000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               270000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               280000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               290000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               300000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               310000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               320000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               330000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               340000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               350000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File NHB, record               360000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT                                                                  
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record                10000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record                20000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record                30000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record                40000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record                50000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record                60000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record                70000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record                80000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record                90000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               100000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               110000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               120000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               130000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               140000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               150000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               160000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               170000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               180000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               190000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               200000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               210000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               220000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               230000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               240000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               250000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               260000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               270000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               280000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               290000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               300000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               310000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               320000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               330000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               340000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               350000                                     
+ nmessage   12    12. +Preparing Incremental Summary Output File TOT, record               360000                                     
+ nmessage   12    12. +Condensing Output File HBW-EXST, record                10000                                                   
+ nmessage   12    12. +Condensing Output File HBW-EXST, record                20000                                                   
+ nmessage   12    12. +Condensing Output File HBW-EXST, record                30000                                                   
+ nmessage   12    12. +Condensing Output File HBW-EXST, record                40000                                                   
+ nmessage   12    12. +Condensing Output File HBW-EXST, record                50000                                                   
+ nmessage   12    12. +Condensing Output File HBW-EXST, record                60000                                                   
+ nmessage   12    12. +Condensing Output File HBW-EXST, record                70000                                                   
+ nmessage   12    12. +Condensing Output File HBW-EXST, record                80000                                                   
+ nmessage   12    12. +Condensing Output File HBW-EXST, record                90000                                                   
+ nmessage   12    12. +Condensing Output File HBO-EXST, record                10000                                                   
+ nmessage   12    12. +Condensing Output File HBO-EXST, record                20000                                                   
+ nmessage   12    12. +Condensing Output File HBO-EXST, record                30000                                                   
+ nmessage   12    12. +Condensing Output File HBO-EXST, record                40000                                                   
+ nmessage   12    12. +Condensing Output File HBO-EXST, record                50000                                                   
+ nmessage   12    12. +Condensing Output File HBO-EXST, record                60000                                                   
+ nmessage   12    12. +Condensing Output File HBO-EXST, record                70000                                                   
+ nmessage   12    12. +Condensing Output File HBO-EXST, record                80000                                                   
+ nmessage   12    12. +Condensing Output File HBO-EXST, record                90000                                                   
+ nmessage   12    12. +Condensing Output File NHB-EXST, record                10000                                                   
+ nmessage   12    12. +Condensing Output File NHB-EXST, record                20000                                                   
+ nmessage   12    12. +Condensing Output File NHB-EXST, record                30000                                                   
+ nmessage   12    12. +Condensing Output File NHB-EXST, record                40000                                                   
+ nmessage   12    12. +Condensing Output File NHB-EXST, record                50000                                                   
+ nmessage   12    12. +Condensing Output File NHB-EXST, record                60000                                                   
+ nmessage   12    12. +Condensing Output File NHB-EXST, record                70000                                                   
+ nmessage   12    12. +Condensing Output File NHB-EXST, record                80000                                                   
+ nmessage   12    12. +Condensing Output File NHB-EXST, record                90000                                                   
+ nmessage   12    12. +Condensing Output File TOT-EXST, record                10000                                                   
+ nmessage   12    12. +Condensing Output File TOT-EXST, record                20000                                                   
+ nmessage   12    12. +Condensing Output File TOT-EXST, record                30000                                                   
+ nmessage   12    12. +Condensing Output File TOT-EXST, record                40000                                                   
+ nmessage   12    12. +Condensing Output File TOT-EXST, record                50000                                                   
+ nmessage   12    12. +Condensing Output File TOT-EXST, record                60000                                                   
+ nmessage   12    12. +Condensing Output File TOT-EXST, record                70000                                                   
+ nmessage   12    12. +Condensing Output File TOT-EXST, record                80000                                                   
+ nmessage   12    12. +Condensing Output File TOT-EXST, record                90000                                                   
+ nmessage   12    12. +Condensing Output File HBW-NOBL, record                10000                                                   
+ nmessage   12    12. +Condensing Output File HBW-NOBL, record                20000                                                   
+ nmessage   12    12. +Condensing Output File HBW-NOBL, record                30000                                                   
+ nmessage   12    12. +Condensing Output File HBW-NOBL, record                40000                                                   
+ nmessage   12    12. +Condensing Output File HBW-NOBL, record                50000                                                   
+ nmessage   12    12. +Condensing Output File HBW-NOBL, record                60000                                                   
+ nmessage   12    12. +Condensing Output File HBW-NOBL, record                70000                                                   
+ nmessage   12    12. +Condensing Output File HBW-NOBL, record                80000                                                   
+ nmessage   12    12. +Condensing Output File HBW-NOBL, record                90000                                                   
+ nmessage   12    12. +Condensing Output File HBO-NOBL, record                10000                                                   
+ nmessage   12    12. +Condensing Output File HBO-NOBL, record                20000                                                   
+ nmessage   12    12. +Condensing Output File HBO-NOBL, record                30000                                                   
+ nmessage   12    12. +Condensing Output File HBO-NOBL, record                40000                                                   
+ nmessage   12    12. +Condensing Output File HBO-NOBL, record                50000                                                   
+ nmessage   12    12. +Condensing Output File HBO-NOBL, record                60000                                                   
+ nmessage   12    12. +Condensing Output File HBO-NOBL, record                70000                                                   
+ nmessage   12    12. +Condensing Output File HBO-NOBL, record                80000                                                   
+ nmessage   12    12. +Condensing Output File HBO-NOBL, record                90000                                                   
+ nmessage   12    12. +Condensing Output File NHB-NOBL, record                10000                                                   
+ nmessage   12    12. +Condensing Output File NHB-NOBL, record                20000                                                   
+ nmessage   12    12. +Condensing Output File NHB-NOBL, record                30000                                                   
+ nmessage   12    12. +Condensing Output File NHB-NOBL, record                40000                                                   
+ nmessage   12    12. +Condensing Output File NHB-NOBL, record                50000                                                   
+ nmessage   12    12. +Condensing Output File NHB-NOBL, record                60000                                                   
+ nmessage   12    12. +Condensing Output File NHB-NOBL, record                70000                                                   
+ nmessage   12    12. +Condensing Output File NHB-NOBL, record                80000                                                   
+ nmessage   12    12. +Condensing Output File NHB-NOBL, record                90000                                                   
+ nmessage   12    12. +Condensing Output File TOT-NOBL, record                10000                                                   
+ nmessage   12    12. +Condensing Output File TOT-NOBL, record                20000                                                   
+ nmessage   12    12. +Condensing Output File TOT-NOBL, record                30000                                                   
+ nmessage   12    12. +Condensing Output File TOT-NOBL, record                40000                                                   
+ nmessage   12    12. +Condensing Output File TOT-NOBL, record                50000                                                   
+ nmessage   12    12. +Condensing Output File TOT-NOBL, record                60000                                                   
+ nmessage   12    12. +Condensing Output File TOT-NOBL, record                70000                                                   
+ nmessage   12    12. +Condensing Output File TOT-NOBL, record                80000                                                   
+ nmessage   12    12. +Condensing Output File TOT-NOBL, record                90000                                                   
+ nmessage   12    12. +Condensing Output File HBW-PROJ, record                10000                                                   
+ nmessage   12    12. +Condensing Output File HBW-PROJ, record                20000                                                   
+ nmessage   12    12. +Condensing Output File HBW-PROJ, record                30000                                                   
+ nmessage   12    12. +Condensing Output File HBW-PROJ, record                40000                                                   
+ nmessage   12    12. +Condensing Output File HBW-PROJ, record                50000                                                   
+ nmessage   12    12. +Condensing Output File HBW-PROJ, record                60000                                                   
+ nmessage   12    12. +Condensing Output File HBW-PROJ, record                70000                                                   
+ nmessage   12    12. +Condensing Output File HBW-PROJ, record                80000                                                   
+ nmessage   12    12. +Condensing Output File HBW-PROJ, record                90000                                                   
+ nmessage   12    12. +Condensing Output File HBO-PROJ, record                10000                                                   
+ nmessage   12    12. +Condensing Output File HBO-PROJ, record                20000                                                   
+ nmessage   12    12. +Condensing Output File HBO-PROJ, record                30000                                                   
+ nmessage   12    12. +Condensing Output File HBO-PROJ, record                40000                                                   
+ nmessage   12    12. +Condensing Output File HBO-PROJ, record                50000                                                   
+ nmessage   12    12. +Condensing Output File HBO-PROJ, record                60000                                                   
+ nmessage   12    12. +Condensing Output File HBO-PROJ, record                70000                                                   
+ nmessage   12    12. +Condensing Output File HBO-PROJ, record                80000                                                   
+ nmessage   12    12. +Condensing Output File HBO-PROJ, record                90000                                                   
+ nmessage   12    12. +Condensing Output File NHB-PROJ, record                10000                                                   
+ nmessage   12    12. +Condensing Output File NHB-PROJ, record                20000                                                   
+ nmessage   12    12. +Condensing Output File NHB-PROJ, record                30000                                                   
+ nmessage   12    12. +Condensing Output File NHB-PROJ, record                40000                                                   
+ nmessage   12    12. +Condensing Output File NHB-PROJ, record                50000                                                   
+ nmessage   12    12. +Condensing Output File NHB-PROJ, record                60000                                                   
+ nmessage   12    12. +Condensing Output File NHB-PROJ, record                70000                                                   
+ nmessage   12    12. +Condensing Output File NHB-PROJ, record                80000                                                   
+ nmessage   12    12. +Condensing Output File NHB-PROJ, record                90000                                                   
+ nmessage   12    12. +Condensing Output File TOT-PROJ, record                10000                                                   
+ nmessage   12    12. +Condensing Output File TOT-PROJ, record                20000                                                   
+ nmessage   12    12. +Condensing Output File TOT-PROJ, record                30000                                                   
+ nmessage   12    12. +Condensing Output File TOT-PROJ, record                40000                                                   
+ nmessage   12    12. +Condensing Output File TOT-PROJ, record                50000                                                   
+ nmessage   12    12. +Condensing Output File TOT-PROJ, record                60000                                                   
+ nmessage   12    12. +Condensing Output File TOT-PROJ, record                70000                                                   
+ nmessage   12    12. +Condensing Output File TOT-PROJ, record                80000                                                   
+ nmessage   12    12. +Condensing Output File TOT-PROJ, record                90000                                                   
+ nmessage   12    12. +Condensing Output File HBW-BLD-, record                10000                                                   
+ nmessage   12    12. +Condensing Output File HBW-BLD-, record                20000                                                   
+ nmessage   12    12. +Condensing Output File HBW-BLD-, record                30000                                                   
+ nmessage   12    12. +Condensing Output File HBW-BLD-, record                40000                                                   
+ nmessage   12    12. +Condensing Output File HBW-BLD-, record                50000                                                   
+ nmessage   12    12. +Condensing Output File HBW-BLD-, record                60000                                                   
+ nmessage   12    12. +Condensing Output File HBW-BLD-, record                70000                                                   
+ nmessage   12    12. +Condensing Output File HBW-BLD-, record                80000                                                   
+ nmessage   12    12. +Condensing Output File HBW-BLD-, record                90000                                                   
+ nmessage   12    12. +Condensing Output File HBO-BLD-, record                10000                                                   
+ nmessage   12    12. +Condensing Output File HBO-BLD-, record                20000                                                   
+ nmessage   12    12. +Condensing Output File HBO-BLD-, record                30000                                                   
+ nmessage   12    12. +Condensing Output File HBO-BLD-, record                40000                                                   
+ nmessage   12    12. +Condensing Output File HBO-BLD-, record                50000                                                   
+ nmessage   12    12. +Condensing Output File HBO-BLD-, record                60000                                                   
+ nmessage   12    12. +Condensing Output File HBO-BLD-, record                70000                                                   
+ nmessage   12    12. +Condensing Output File HBO-BLD-, record                80000                                                   
+ nmessage   12    12. +Condensing Output File HBO-BLD-, record                90000                                                   
+ nmessage   12    12. +Condensing Output File NHB-BLD-, record                10000                                                   
+ nmessage   12    12. +Condensing Output File NHB-BLD-, record                20000                                                   
+ nmessage   12    12. +Condensing Output File NHB-BLD-, record                30000                                                   
+ nmessage   12    12. +Condensing Output File NHB-BLD-, record                40000                                                   
+ nmessage   12    12. +Condensing Output File NHB-BLD-, record                50000                                                   
+ nmessage   12    12. +Condensing Output File NHB-BLD-, record                60000                                                   
+ nmessage   12    12. +Condensing Output File NHB-BLD-, record                70000                                                   
+ nmessage   12    12. +Condensing Output File NHB-BLD-, record                80000                                                   
+ nmessage   12    12. +Condensing Output File NHB-BLD-, record                90000                                                   
+ nmessage   12    12. +Condensing Output File TOT-BLD-, record                10000                                                   
+ nmessage   12    12. +Condensing Output File TOT-BLD-, record                20000                                                   
+ nmessage   12    12. +Condensing Output File TOT-BLD-, record                30000                                                   
+ nmessage   12    12. +Condensing Output File TOT-BLD-, record                40000                                                   
+ nmessage   12    12. +Condensing Output File TOT-BLD-, record                50000                                                   
+ nmessage   12    12. +Condensing Output File TOT-BLD-, record                60000                                                   
+ nmessage   12    12. +Condensing Output File TOT-BLD-, record                70000                                                   
+ nmessage   12    12. +Condensing Output File TOT-BLD-, record                80000                                                   
+ nmessage   12    12. +Condensing Output File TOT-BLD-, record                90000                                                   
+ nmessage   13    13. STOPS successfully completed                                                                                    
