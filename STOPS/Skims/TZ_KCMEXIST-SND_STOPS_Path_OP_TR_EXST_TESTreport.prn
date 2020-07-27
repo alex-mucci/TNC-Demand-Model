@@ -4,7 +4,7 @@ Run Name:    Madison Streetcar
 Path Name:   2-OffPeak TR
 Project-Penalty File: C:\Workspace\TNC-Demand-Model\STOPS\outputdata\STOP_Project_Penalty.txt
 Project-Penalty File: C:\Workspace\TNC-Demand-Model\STOPS\outputdata\STOP_Project_Penalty.txt
-GTF Path Report - Run on: 12:31:32 --  5/20/2020
+GTF Path Report - Run on: 16:26:15 --  5/21/2020
 ----------------------------------------------------------                                                              
 GTFPath Parameters                                                                                                      
 GTF Calendar Day for GTFFile  1 (adds to user-coded day types):  2/13/2013 - Wednesday                                  
@@ -13596,7 +13596,7 @@ Exporting GTF Stop_Times file: C:\Workspace\TNC-Demand-Model\STOPS\GTFOutput\OP_
  Stop topology analysis
  Number of stops skipped due to 2 or fewer connected stops/centroids/pnrs:        986
  Number of stops retained:                                                       7396
-*** time at begining of centroid loop 12:32:04:75
+*** time at begining of centroid loop 16:26:48:06
  ncent=      2, access types=  1- 3
-*** time at end of centroid loop 12:32:04:77
+*** time at end of centroid loop 16:26:48:07
 GTF Path Successful                                                                                                     

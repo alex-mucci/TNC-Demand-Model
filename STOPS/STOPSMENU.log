@@ -1,41 +1,6 @@
  nmessage    1     1. STOPS Returned to Main Menu                                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   1 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   2 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   3 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   4 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   5 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   6 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   7 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   8 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   9 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  10 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  11 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  12 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  13 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  14 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  15 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  16 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  17 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  18 of 18.                                                                     
  nmessage    1     1. STOPS Returned to Main Menu                                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   1 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   2 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   3 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   4 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   5 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   6 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   7 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   8 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part   9 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  10 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  11 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  12 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  13 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  14 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  15 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  16 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  17 of 18.                                                                     
- nmessage    1     1. Step 11.2. Running GTFPath, Part  18 of 18.                                                                     
+ nmessage    1     1. STOPS Returned to Main Menu                                                                                     
  nmessage    1     1. STOPS Returned to Main Menu                                                                                     
  nmessage    1     1. Step 11.2. Running GTFPath, Part   1 of 18.                                                                     
  nmessage    1     1. Step 11.2. Running GTFPath, Part   2 of 18.                                                                     
@@ -58,11 +23,8 @@
  nmessage    1     1. STOPS Returned to Main Menu                                                                                     
  nmessage    1     1. Step 7. Running StatBuffZone                                                                                    
  nmessage    1     1. STOPS Returned to Main Menu                                                                                     
- nmessage    1     1. Step 9. Running MPOTAZEquiv                                                                                     
- nmessage    1     1. STOPS Returned to Main Menu                                                                                     
  nmessage    1     1. Step 10. Running PedEnviron                                                                                     
  nmessage    1     1. STOPS Returned to Main Menu                                                                                     
- nmessage    1     1. Step 11.1. Running CTPPExtract File                                                                             
  nmessage    1     1. Step 11.2. Running GTFPath, Part   1 of 18.                                                                     
  nmessage    1     1. Step 11.2. Running GTFPath, Part   2 of 18.                                                                     
  nmessage    1     1. Step 11.2. Running GTFPath, Part   3 of 18.                                                                     
@@ -81,25 +43,4 @@
  nmessage    1     1. Step 11.2. Running GTFPath, Part  16 of 18.                                                                     
  nmessage    1     1. Step 11.2. Running GTFPath, Part  17 of 18.                                                                     
  nmessage    1     1. Step 11.2. Running GTFPath, Part  18 of 18.                                                                     
- nmessage    1     1. Step 11.3. Running Postskim, Part 1 of 3 (Current Network)                                                      
- nmessage    1     1. Step 11.3. Running Postskim, Part 2 of 3 (No-Build)                                                             
- nmessage    1     1. Step 11.3. Running Postskim, Part 3 of 3 (Build)                                                                
- nmessage    1     1. Step 11.4. Running Batch Grow for year 2010                                                                     
- nmessage    1     1. Step 11.5. Starting STOPS                                                                                       
- nmessage    2     2. Starting Convert District                                                                                       
- nmessage    3     3. Starting STOPS.exe                                                                                              
- nmessage    4     4. Finished STOPS.exe                                                                                              
- nmessage    1     1. STOPS Returned to Main Menu                                                                                     
- nmessage    2     2. Reporting" notepad C:\Workspace\TNC-Demand-Model\STOPS\Reports\TZ_KCMEXIST-SND#KCMNOB-SND#KCMBLD-SND_STOPSY2010R
- nmessage    1     1. STOPS Returned to Main Menu                                                                                     
- nmessage    2     2. Generating Map:  SubMode#:  4, AccessMode#:  4  Purpose#:  4                                                    
- nmessage    3     3.  to  District: 000-All Districts, Zone:none                                                                     
- nmessage    4     4. Running Python Script: C:\Workspace\TNC-Demand-Model\STOPS\Scratch\makemxd.py                                   
- nmessage    5     5. Loading ArcMap: C:\Workspace\TNC-Demand-Model\STOPS\TimeTrips.mxd                                               
- nmessage    1     1. STOPS Returned to Main Menu                                                                                     
- nmessage    1     1. Step 2. Running Python Script: C:\Workspace\TNC-Demand-Model\STOPS\Chicago\Scratch\makemxd.py                   
- nmessage    1     1. Step 2. Running Python Script: C:\Workspace\TNC-Demand-Model\STOPS\Chicago\Scratch\makemxd.py                   
- nmessage    2     2. Loading ArcMap: C:\Workspace\TNC-Demand-Model\STOPS\Chicago\Station.mxd                                         
- nmessage    1     1. STOPS Returned to Main Menu                                                                                     
- nmessage    2     2. Loading ArcMap: C:\Workspace\TNC-Demand-Model\STOPS\Chicago\Station.mxd                                         
  nmessage    1     1. STOPS Returned to Main Menu                                                                                     
