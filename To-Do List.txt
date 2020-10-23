@@ -17,6 +17,7 @@ young allen and farber paper... using open trip planner... categorizing by trans
 get transit travel times... google maps... open trip planner... urban access.. ratio... and difference between travel times
 
 
+-88.263,41.4697,-87.5233,42.1545
 
 CHANGES TO ESTIMATION FILE:
 
