@@ -8,7 +8,9 @@ Steps to calculate the transit travel times:
 After input files have been downloaded and placed according to the links above... run the following notebooks and 
 commands in the command prompt (must be command prompt... not power shell)
 
-1. java -Xmx10G -jar otp-2.0.0-rc1-shaded.jar --build --serve C:\Workspace\TNC-Demand-Model\otp
+$ java -Xmx2G -jar otp-0.19.0-shaded.jar --build /home/username/otp 
+
+1. java -Xmx10G -jar otp-1.4.0-shaded.jar --cache C:\Workspace\TNC-Demand-Model\otp --basePath C:\Workspace\TNC-Demand-Model\otp --build C:\Workspace\TNC-Demand-Model\otp
 2. java –Xmx10G -jar otp-1.4.0-shaded.jar --cache C:\Workspace\TNC-Demand-Model\otp\otp-travel-time-matrix --basePath C:\Workspace\TNC-Demand-Model\otp\otp-travel-time-matrix --build C:\Workspace\TNC-Demand-Model\otp\otp-travel-time-matrix
 3. Run the following jupyter notebook: C:\Workspace\TNC-Demand-Model\Create Census Tract Centroids.pynb
 3. c:\jython2.7.2\bin\jython.exe -J-XX:-UseGCOverheadLimit -J-Xmx10G -Dpython.path=otp-1.4.0-shaded.jar python_script_loopHM_parallel.py
