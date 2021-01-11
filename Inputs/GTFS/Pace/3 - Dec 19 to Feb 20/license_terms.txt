@@ -1,0 +1,32 @@
+Limited License Agreement and Terms of Use
+
+Pace, the Suburban Bus Division of the Regional Transportation Authority (“Licensor” or “Pace”) owns and maintains certain electronic route and arrival data (“Pace’s Data”). Pace hereby grants you (Licensee”) non-exclusive, limited and revocable rights to use, reproduce and redistribute Pace’s Data to assist you with mass transportation. Pace has the right, at any time, to change, modify, correct, add or delete any or all of the data on this website, temporarily or permanently, without notice to Licensee. By submitting a query or using the data you agree to be bound by all the terms and conditions set forth herein.
+
+Proprietary Rights
+
+Licensee agrees the Pace name and Pace logo are the trade name and trademark of Pace. Licensee agrees that it will not make any alterations to the Pace logo. Licensee may not use the Pace name or logo without the prior written consent of Pace. The Pace name and logo may not be used in connection with the products or services of others.
+All right, title and interest to any copyrights, patents or other intellectual property rights embodied in the Pace Data are Pace’s sole and exclusive property.
+
+No Warranties 
+
+Pace Data is provided on an “as is” and “as available” basis. Pace disclaims all warranties, whether express or implied, including but not limited to warranties that the data is free of errors, defects, viruses, able to operate on an uninterrupted basis and implied warranties of merchantability, fitness for a particular purpose, accuracy or non-infringement. Your use of this website and its data is solely at your own risk.
+
+Indemnification
+
+Licensee agrees to indemnify, defend and hold Pace, its officers, agents and employees harmless against any and all liability, claims, judgments, suits, losses, expenses, payment, judgment, settlement, award, costs (including reasonable attorney fees and costs), and causes of actions whatsoever, including but not limited to patent and copyright infringement, defamation, personal injury, death, or property damage arising out of or as a result of this Agreement.
+
+Limitation on Liability
+
+Under no circumstances shall Pace, its officers, agents or employees be liable for damages of any kind, including but not limited to direct, indirect, special, incidental, consequential, punitive, or exemplary damages arising from Licensee or others’ use, misuse, inability to use or reliance upon this website or its data regardless of whether the alleged liability is based upon tort, contract, negligence, strict liability, warranty or any other legal theory. Additionally, Pace, its officers, agents or employees shall not be liable for any delay or failure in performance resulting directly or indirectly from electrical power failures, internet and other equipment failures, acts of nature, or causes beyond its reasonable control.
+
+Severability
+
+If any provision in this Agreement is found to be unenforceable, it shall be severed and its severance shall not affect the remaining portions of this Agreement
+
+Entire Agreement
+
+This Agreement constitutes the entire understanding and agreement between Pace and Licensee and no other warranties, inducements, considerations, promises or interpretations, which are not expressly stated herein, shall be implied or impressed upon this Agreement.
+
+Governing Law
+
+Any disputes that arise as a result of this Agreement shall be heard in an Illinois court of competent jurisdiction without giving effect to its conflict of laws provisions and Illinois law shall be applied.

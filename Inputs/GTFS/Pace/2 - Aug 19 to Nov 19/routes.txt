@@ -1,0 +1,204 @@
+route_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+100-301,,"Pulse Milwaukee Line",,3,https://pulse.pacebus.com/,814C9E,FFFFFF
+182-0,182,"NORTH Naperville Evening Service",,3,,00539F,FFFFFF
+183-0,183,"SOUTHWEST Naperville Evening Service",,3,,00539F,FFFFFF
+184-0,184,"SOUTH Naperville Evening Service",,3,,00539F,FFFFFF
+185-0,185,"SOUTHEAST Naperville Evening Service",,3,,00539F,FFFFFF
+186-0,186,"East Lisle combination service",,3,,00539F,FFFFFF
+187-0,187,"West Lisle combination service",,3,,00539F,FFFFFF
+208-301,208,"Golf Road",,3,,00539F,FFFFFF
+209-301,209,"Busse Highway",,3,,00539F,FFFFFF
+210-301,210,"Lincoln Avenue",,3,,00539F,FFFFFF
+213-301,213,"Green Bay Road",,3,,00539F,FFFFFF
+215-301,215,"Crawford-Howard",,3,,00539F,FFFFFF
+221-301,221,"Wolf Road",,3,,00539F,FFFFFF
+223-301,223,"Elk Grove - Rosemont CTA Station",,3,,00539F,FFFFFF
+225-301,225,"Central - Howard",,3,,00539F,FFFFFF
+226-301,226,"Oakton Street",,3,,00539F,FFFFFF
+230-301,230,"South Des Plaines",,3,,00539F,FFFFFF
+234-301,234,"Wheeling - Des Plaines",,3,,00539F,FFFFFF
+240-301,240,"Dee Road",,3,,00539F,FFFFFF
+241-301,241,"Greenwood - Talcott",,3,,00539F,FFFFFF
+250-301,250,"Dempster Street",,3,,00539F,FFFFFF
+270-301,270,"Milwaukee Avenue",,3,,00539F,FFFFFF
+272-301,272,"Milwaukee Avenue North",,3,,00539F,FFFFFF
+290-301,290,"Touhy Avenue",,3,,00539F,FFFFFF
+301-303,301,"Roosevelt Road",,3,,00539F,FFFFFF
+302-303,302,"Ogden - Stanley",,3,,00539F,FFFFFF
+303-303,303,"Forest Park - Rosemont",,3,,00539F,FFFFFF
+305-303,305,"East Roosevelt",,3,,00539F,FFFFFF
+307-303,307,"Harlem",,3,,00539F,FFFFFF
+308-303,308,"Medical Center",,3,,00539F,FFFFFF
+309-303,309,"Lake Street",,3,,00539F,FFFFFF
+310-303,310,"West Madison - Hillside",,3,,00539F,FFFFFF
+311-303,311,"Oak Park Avenue",,3,,00539F,FFFFFF
+313-303,313,"St. Charles Rd.",,3,,00539F,FFFFFF
+314-303,314,"Ridgeland",,3,,00539F,FFFFFF
+315-303,315,"Austin",,3,,00539F,FFFFFF
+316-303,316,"Laramie",,3,,00539F,FFFFFF
+317-303,317,"Westchester",,3,,00539F,FFFFFF
+318-303,318,"West North Avenue",,3,,00539F,FFFFFF
+319-303,319,"Grand Avenue",,3,,00539F,FFFFFF
+320-303,320,"Madison Street",,3,,00539F,FFFFFF
+322-303,322,"Cermak Road - 22nd St.",,3,,00539F,FFFFFF
+327-303,327,"Industrial Drive",,3,,00539F,FFFFFF
+330-303,330,"Mannheim - LaGrange Road",,3,,00539F,FFFFFF
+331-303,331,"Cumberland - 5th Avenue",,3,,00539F,FFFFFF
+332-303,332,"River - York Roads",,3,,00539F,FFFFFF
+348-303,348,"Harvey - Riverdale - Blue Island",,3,,00539F,FFFFFF
+349-303,349,"SOUTH WESTERN",,3,,00539F,FFFFFF
+350-303,350,"Sibley",,3,,00539F,FFFFFF
+352-303,352,"Halsted",,3,,00539F,FFFFFF
+353-303,353,"95th - River Oaks",,3,,00539F,FFFFFF
+354-303,354,"Harvey - Oak Forest Loop",,3,,00539F,FFFFFF
+355-303,355,"Wentworth Limited",,3,,00539F,FFFFFF
+356-303,356,"Harvey - Homewood - Tinley Park",,3,,00539F,FFFFFF
+357-303,357,"Lincoln Highway",,3,,00539F,FFFFFF
+358-303,358,"Torrence",,3,,00539F,FFFFFF
+359-303,359,"Robbins / South Kedzie Avenue",,3,,00539F,FFFFFF
+360-303,360,"Harvey-Amazon Monee",,3,,00539F,FFFFFF
+361-303,361,"Harvey - Laraway Crossings Express",,3,,00539F,FFFFFF
+364-303,364,"159th Street",,3,,00539F,FFFFFF
+366-303,366,"Park Forest - Chicago Heights",,3,,00539F,FFFFFF
+367-303,367,"University Park - Park Forest",,3,,00539F,FFFFFF
+372-303,372,"Dixie Highway",,3,,00539F,FFFFFF
+379-303,379,"Midway - Orland Park",,3,,00539F,FFFFFF
+381-303,381,"95th Street",,3,,00539F,FFFFFF
+382-303,382,"Central / Clearing",,3,,00539F,FFFFFF
+383-303,383,"South Cicero",,3,,00539F,FFFFFF
+384-303,384,"Narragansett - Ridgeland",,3,,00539F,FFFFFF
+385-303,385,"87th / 111th / 127th",,3,,00539F,FFFFFF
+386-303,386,"South Harlem",,3,,00539F,FFFFFF
+390-303,390,"Midway CTA - UPS Hodgkins",,3,,00539F,FFFFFF
+392-303,392,"Green Line Cicero CTA - UPS Hodgkins Limited",,3,,00539F,FFFFFF
+395-303,395,"95th/Dan RyanCTA  - UPS Hodgkins Limited",,3,,00539F,FFFFFF
+410-220,410,"East Niles Local",,3,,00539F,FFFFFF
+411-220,411,"West Niles Local",,3,,00539F,FFFFFF
+412-220,412,"Niles Shopper's Special",,3,,00539F,FFFFFF
+421-301,421,"Wilmette Avenue",,3,,00539F,FFFFFF
+422-301,422,"Linden CTA/Glenview/Northbrook Court",,3,,00539F,FFFFFF
+423-301,423,"Linden CTA - The Glen - Harleml CTA",,3,,00539F,FFFFFF
+461-0,461,"N462orth Downers Grove",,3,,00539F,FFFFFF
+462-0,462,"Southwest Downers Grove",,3,,00539F,FFFFFF
+463-0,463,"Southeast Downers Grove",,3,,00539F,FFFFFF
+465-0,465,"Esplanade",,3,,00539F,FFFFFF
+471-0,471,"Highland Park-Northbrook Court",,3,,00539F,FFFFFF
+472-0,472,"Highland Park - Highwood",,3,,00539F,FFFFFF
+501-303,501,"West Jefferson",,3,,00539F,FFFFFF
+504-303,504,"South Joliet",,3,,00539F,FFFFFF
+505-303,505,"West Joliet Loop",,3,,00539F,FFFFFF
+507-303,507,"Plainfield",,3,,00539F,FFFFFF
+508-303,508,"East Joliet",,3,,00539F,FFFFFF
+509-303,509,"Forest Park",,3,,00539F,FFFFFF
+511-303,511,"Joliet- Elwood -Centerpoint",,3,,00539F,FFFFFF
+512-303,512,"JOLIET - CENTERPOINT",,3,,00539F,FFFFFF
+524-249,524,"West Aurora",,3,,00539F,FFFFFF
+530-249,530,"West Galena- Westfield Fox Valley Center",,3,,00539F,FFFFFF
+533-249,533,"Northeast Aurora",,3,,00539F,FFFFFF
+534-249,534,"Fox Valley Villages / Rt 59",,3,,00539F,FFFFFF
+540-249,540,"Farnsworth Avenue",,3,,00539F,FFFFFF
+541-273,541,"Northeast Elgin",,3,,00539F,FFFFFF
+542-273,542,"Bluff City",,3,,00539F,FFFFFF
+543-273,543,"Dundee-Carpentersville",,3,,00539F,FFFFFF
+546-273,546,"Orange-Walnut",,3,,00539F,FFFFFF
+547-273,547,"Wing Park",,3,,00539F,FFFFFF
+548-273,548,"Highland",,3,,00539F,FFFFFF
+549-273,549,"South Randall",,3,,00539F,FFFFFF
+550-273,550,"Big Timber-North Randall",,3,,00539F,FFFFFF
+552-273,552,"North State - Spring Hill Mall",,3,,00539F,FFFFFF
+554-273,554,"Elgin Woodfield",,3,,00539F,FFFFFF
+559-249,559,"Illinois Rt 59",,3,,00539F,FFFFFF
+561-301,561,"Castlecrest via McAree",,3,,00539F,FFFFFF
+562-301,562,"Gurnee via Sunset",,3,,00539F,FFFFFF
+563-301,563,"Great Lakes Naval Station",,3,,00539F,FFFFFF
+564-301,564,"Jackson / 14th",,3,,00539F,FFFFFF
+565-301,565,"Grand Avenue",,3,,00539F,FFFFFF
+566-301,566,"McAREE - KELLER",,3,,00539F,FFFFFF
+568-301,568,"Belvidere",,3,,00539F,FFFFFF
+569-301,569,"Lewis",,3,,00539F,FFFFFF
+570-301,570,"Fox Lake - CLC",,3,,00539F,FFFFFF
+571-301,571,"Zion",,3,,00539F,FFFFFF
+572-301,572,"Washington",,3,,00539F,FFFFFF
+573-301,573,"Green Bay Road",,3,,00539F,FFFFFF
+574-301,574,"CLC - Westfield Hawthorn",,3,,00539F,FFFFFF
+600-273,600,"Northwest Express",,3,,00539F,FFFFFF
+602-172,602,"Higgins - Salem - Cedarcrest",,3,,00539F,FFFFFF
+603-273,603,"Elgin Terminal  - Rosemont Express",,3,,00539F,FFFFFF
+604-301,604,"Dundee Road to Schaumburg",,3,,00539F,FFFFFF
+605-273,605,"I-90/Randall Road Park-N-Ride - Roesmont  Express",,3,,00539F,FFFFFF
+606-273,606,"Rosemont - Schaumburg  Limited",,3,,00539F,FFFFFF
+606-301,606,"Rosemont - Schaumburg  Limited",,3,,00539F,FFFFFF
+607-273,607,"Randall - Schaumburg Express",,3,,00539F,FFFFFF
+608-303,608,"Roselle - Schaumburg",,3,,00539F,FFFFFF
+610-273,610,"Rosemont  - Prairie Stone Express",,3,,00539F,FFFFFF
+611-273,611,"North Schaumburg",,3,,00539F,FFFFFF
+612-273,612,"Barrington Rd Circulator",,3,,00539F,FFFFFF
+616-273,616,"Rosemont - Itasca Limited",,3,,00539F,FFFFFF
+619-301,619,"Des Plaines Station - Willow Rd Corridor",,3,,00539F,FFFFFF
+620-301,620,"YELLOW LINE - NORTHBROOK",,3,,00539F,FFFFFF
+623-301,623,"Glen of N. Glenview Station - Willow Road Corridor",,3,,00539F,FFFFFF
+626-301,626,"Skokie Valley Limited",,3,,00539F,FFFFFF
+627-301,627,"Discover - Takeda Shuttle Bug",,3,,00539F,FFFFFF
+628-0,628,"Shuttle Bug 8",,3,,00539F,FFFFFF
+629-0,629,"Shuttle Bug 9",,3,,00539F,FFFFFF
+631-301,631,"Shuttle Bug 1",,3,,00539F,FFFFFF
+632-301,632,"Shuttle Bug 2",,3,,00539F,FFFFFF
+633-301,633,"Shuttle Bug 3",,3,,00539F,FFFFFF
+634-301,634,"Shuttle Bug 4",,3,,00539F,FFFFFF
+635-301,635,"Lake Cook Shuttle Bug 5",,3,,00539F,FFFFFF
+640-301,640,"BRAESIDE - COMMERCIAL",,3,,00539F,FFFFFF
+662-200,662,"South Central Westmont",,3,,00539F,FFFFFF
+663-200,663,"Darien-Clarendon",,3,,00539F,FFFFFF
+664-200,664,"Willowbrook-Clarendon Hills",,3,,00539F,FFFFFF
+665-200,665,"Darien-Westmont",,3,,00539F,FFFFFF
+668-200,668,"Burr Ridge-Hinsdale",,3,,00539F,FFFFFF
+669-200,669,"Western Springs-Indian Head Park",,3,,00539F,FFFFFF
+672-0,672,"95th Park-n-Ride Express-Rt 59 Metra Direct",,3,,00539F,FFFFFF
+673-0,673,"Community Christian Park-n-Ride-Rt 59 Metra Direct",,3,,00539F,FFFFFF
+674-0,674,"Southwest Lombard",,3,,00539F,FFFFFF
+675-0,675,"Wheatland Salem Park-n-Ride-Rt 59 Metra Direct",,3,,00539F,FFFFFF
+676-249,676,"Warrenville-Naperville Metra",,3,,00539F,FFFFFF
+677-0,677,"Brighton Ridge-Naperville Metra",,3,,00539F,FFFFFF
+678-0,678,"River Woods - Naperville Metra",,3,,00539F,FFFFFF
+680-0,680,"Brookwood Trace - Naperville Metra",,3,,00539F,FFFFFF
+681-0,681,"Lincoln Park - Naperville Metra",,3,,00539F,FFFFFF
+682-0,682,"Brookdale - Naperville Metra",,3,,00539F,FFFFFF
+683-0,683,"Ashbury - Naperville Metra",,3,,00539F,FFFFFF
+684-0,684,"Winchester Place - Naperville Metra",,3,,00539F,FFFFFF
+685-249,685,"Ivy Ridge-Naperville Metra",,3,,00539F,FFFFFF
+687-0,687,"Maplebrook East - Naperville Metra",,3,,00539F,FFFFFF
+689-0,689,"Century Hill - Naperville Metra",,3,,00539F,FFFFFF
+694-301,694,"Central Road-Mt. Prospect Station",,3,,00539F,FFFFFF
+696-301,696,"Randhurst/Woodfield/Harper College",,3,,00539F,FFFFFF
+709-0,709,"Carol Stream-North Wheaton",,3,,00539F,FFFFFF
+711-0,711,"Wheaton-Addison",,3,,00539F,FFFFFF
+714-249,714,"College of DuPage-Naperville-Wheaton Connector",,3,,00539F,FFFFFF
+715-0,715,"Central DuPage",,3,,00539F,FFFFFF
+722-249,722,"Ogden Avenue",,3,,00539F,FFFFFF
+754-303,754,"Lewis Univ. - CTA Blue Line Clinton Stn. Express",,3,,00539F,FFFFFF
+755-303,755,"Plainfield UIC Express",,3,,00539F,FFFFFF
+757-303,757,"Oak Park - Schaumburg Limited",,3,,00539F,FFFFFF
+801-273,801,"Elgin-Geneva",,3,,00539F,FFFFFF
+802-249,802,"Aurora - Geneva via Lake Street",,3,,00539F,FFFFFF
+803-273,803,"Carpentersville Local",,3,,00539F,FFFFFF
+806-0,806,"Crystal Lake-Fox Lake",,3,,00539F,FFFFFF
+807-0,807,"Woodstock-McHenry",,3,,00539F,FFFFFF
+808-0,808,"Crystal Lake-Harvard",,3,,00539F,FFFFFF
+811-172,811,"Rosemont Entertainment Circulator",,3,,00539F,FFFFFF
+820-0,820,"University Heights-Hobson Creek - Lisle",,3,,00539F,FFFFFF
+821-0,821,"Belmont Metra",,3,,00539F,FFFFFF
+825-0,825,"Central Bolingbrook-Lisle",,3,,00539F,FFFFFF
+826-0,826,"South Lisle",,3,,00539F,FFFFFF
+827-0,827,"Green Trails-Steeple Run",,3,,00539F,FFFFFF
+828-0,828,"North Lisle",,3,,00539F,FFFFFF
+829-0,829,"Lisle Naperville Office Corridor",,3,,00539F,FFFFFF
+832-303,832,"Joliet - Orland Square",,3,,00539F,FFFFFF
+834-303,834,"Joliet-Downers Grove",,3,,00539F,FFFFFF
+850-303,850,"CANTERBURY TO EAST LOOP",,3,,00539F,FFFFFF
+851-303,851,"OLD CHICAGO TO EAST LOOP",,3,,00539F,FFFFFF
+855-303,855,"Plainfield-East Loop Express",,3,,00539F,FFFFFF
+877-303,877,"Harvey - Downers Grove Limited",,3,,00539F,FFFFFF
+888-303,888,"Homewood - Naperville Limited",,3,,00539F,FFFFFF
+890-303,890,"Chicago Heights - UPS Hodgkins Limited",,3,,00539F,FFFFFF
+895-303,895,"95th St. - Rosemont - Schaumburg  Express",,3,,00539F,FFFFFF
+TAXI-303,TAXI,"For shuttle blocks",,3,,,

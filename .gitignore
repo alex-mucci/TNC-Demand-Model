@@ -1,10 +1,2 @@
-#ignore the input data files because they are too big
-Inputs
-Stops/OutputData
-*.dbf
-*.obj
-*.pbf
-Estimation_File_2019.csv
-OD_2019.shp
-Destination_Tract_Travel_Times.shp
-2019_Weekday_Ridehail.csv
+# add a list of ignored files
+*.shp
