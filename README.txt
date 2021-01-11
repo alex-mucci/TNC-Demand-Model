@@ -3,11 +3,9 @@ trip totals and average fare. There is a plot for all trips, private trips, and 
 
 The tods correspond to the following hours:
 
-1 - 8pm-6am
-2 - 6am-7am
-3 - 7am-9am
-4 - 9am-10am
-5 - 10am-2pm
-6 - 2pm-4pm
-7 - 4pm-6pm
-8 - 6pm-8pm
+1 - 10pm-6am
+2 - 6am-9am
+3 - 9am-4pm
+4 - 4pm-7pm
+5 - 7pm-10pm
+
