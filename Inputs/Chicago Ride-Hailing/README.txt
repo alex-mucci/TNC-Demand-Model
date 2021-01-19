@@ -1,3 +1,5 @@
+SOURCE: https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips/m6dm-c72p
+
 The data contains ride-hailing trips with at least one trip end within the city of Chicago. I found the following rules 
 apply to the data:
 * When community area data is available the origin/destination was within chicago. (this is 87% of trips)
