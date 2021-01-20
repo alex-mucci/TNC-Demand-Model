@@ -1,9 +1,8 @@
 import pandas as pd
 import geopandas as gp
 
-
 def create_empty_od_matrix(tracts_shapefile_path, years, tods, outfile):
-	df = pd.DataFrame()
+    df = pd.DataFrame()
     df3 = pd.DataFrame()
     
     for year in years:  

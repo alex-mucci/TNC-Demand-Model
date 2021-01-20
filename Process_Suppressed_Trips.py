@@ -43,7 +43,6 @@ def proccess_suppressed_trips(conflation_path, h5_path, outfile, years, agg, tod
                 print(str(len(df[((~np.isnan(df['Pickup Community Area']))&(~np.isnan(df['Pickup Census Tract'])))&((~np.isnan(df['Dropoff Community Area'])) & (~np.isnan(df['Dropoff Census Tract'])))])) +  ' Trip Records with both trip ends within Chicago out of ' + str(len(df)) )
                 print(str(len(df[(np.isnan(df['Pickup Community Area']))|(np.isnan(df['Dropoff Community Area']))])) +  ' Trip Records with one trip end outside of Cook county out of ' + str(len(df)) )
 
-
                 #select out the trips that have community area data and are missing census tract data 
                 df['SUP_PRIVATE_TRIPS'] = np.where(df['Shared Trip Authorized'] == False, 1, 0)
                 df['SUP_SHARED_TRIPS'] = np.where(df['Shared Trip Authorized'] == True, 1, 0)
@@ -53,7 +52,7 @@ def proccess_suppressed_trips(conflation_path, h5_path, outfile, years, agg, tod
 
                 df = df.groupby(by = ['Pickup Community Area', 'Dropoff Community Area', 'YEAR','MONTH','DAY'], as_index = False).sum()
                 df = df.groupby(by = ['Pickup Community Area', 'Dropoff Community Area','YEAR','MONTH'], as_index = False).mean()
-
+                
                 print('There are ' +str(df.SUP_PRIVATE_TRIPS.sum() + df.SUP_SHARED_TRIPS.sum()) + ' Average Weekday Trips that are Suppressed!')
 
                 #make a column to iterate through
