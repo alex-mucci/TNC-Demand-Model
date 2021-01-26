@@ -10,6 +10,7 @@ def proccess_suppressed_trips(conflation_path, h5_path, outfile, years, agg, tod
     conflation = pd.read_csv(conflation_path)
     conflation['COMMUNITY_AREA'] = conflation.area_num_1.astype(float)
     store = pd.HDFStore(h5_path)
+    df6 = pd.DataFrame()
 
     for year in years:  
         if year == 2018:
@@ -30,8 +31,7 @@ def proccess_suppressed_trips(conflation_path, h5_path, outfile, years, agg, tod
                 print('Working on tod ' + str(tod))
 
                 df3 = pd.DataFrame()
-                df2 = pd.DataFrame()
-                df = pd.DataFrame()
+       
                 df = store.select(where = ['YEAR == ' + str(year)], key = 'Weekday_' + str(tod))
 
                 print('Filtering the Data!')
@@ -73,19 +73,21 @@ def proccess_suppressed_trips(conflation_path, h5_path, outfile, years, agg, tod
                     df2['SCALED_SUP_PRIVATE_TRIPS'] = df2['SUP_PRIVATE_TRIPS']*df2['SCALAR']
                     df2['SCALED_SUP_SHARED_TRIPS'] = df2['SUP_SHARED_TRIPS']*df2['SCALAR']
                     df3 = df3.append(df2)
+                    
                 df3['TOD'] = tod       
+                df4 = df4.append(df3)
+            
 
-                df4 = df3.append(df3)
             df4['MONTH'] = month
-
-
-            df5 = df4.append(df4)
+            df5 = df5.append(df4)
+            
+            
         df5['YEAR'] = year    
+        df6 = df6.append(df5)
+        
 
-        df6 = df5.append(df5)
 
-
-    grouped = df6[['SCALED_SUP_PRIVATE_TRIPS','SCALED_SUP_SHARED_TRIPS', 'GEOID_PICKUP','GEOID_DROPOFF', 'MONTH','YEAR','Pickup Community Area', 'Dropoff Community Area']].groupby(by = ['GEOID_PICKUP', 'GEOID_DROPOFF','MONTH','YEAR'], as_index = False).agg(agg)        
+    grouped = df6[['SCALED_SUP_PRIVATE_TRIPS','SCALED_SUP_SHARED_TRIPS', 'GEOID_PICKUP','GEOID_DROPOFF', 'MONTH','YEAR','TOD','Pickup Community Area', 'Dropoff Community Area']].groupby(by = ['GEOID_PICKUP', 'GEOID_DROPOFF','MONTH','YEAR','TOD'], as_index = False).agg(agg)        
 
     grouped.to_csv(outfile)
     

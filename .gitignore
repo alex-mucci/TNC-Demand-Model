@@ -1,3 +1,10 @@
 # add a list of ignored files
 
+Empty_Chicago_Matrix.csv
 tl_2019_17_tabblock10.shp
+Chicago_TNC_Trips_20.H5
+Monthly Suppressed Trips.csv
+Monthly_Trip_Records_No_Suppressed.csv
+Raw_Trip_Records_No_Suppressed.csv
+Transportation_Network_Providers_-_Trips.csv
+2019_Weekday_Monthly_Ridehail_TOD.csv

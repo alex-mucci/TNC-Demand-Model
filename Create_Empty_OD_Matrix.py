@@ -4,6 +4,9 @@ import geopandas as gp
 def create_empty_od_matrix(tracts_shapefile_path, years, tods, outfile):
     df = pd.DataFrame()
     df3 = pd.DataFrame()
+    df5 = pd.DataFrame()
+    
+    tracts = gp.read_file(tracts_shapefile_path)
     
     for year in years:  
         if year == 2018:
@@ -21,7 +24,6 @@ def create_empty_od_matrix(tracts_shapefile_path, years, tods, outfile):
             df3 = pd.DataFrame()
             
             for tod in tods:
-                print('Working on tod ' + str(tod))
                 df2 = pd.DataFrame()
                 print('Working on TOD ' + str(tod))
             
