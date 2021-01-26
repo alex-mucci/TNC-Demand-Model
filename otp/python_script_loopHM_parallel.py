@@ -2,19 +2,20 @@
 ###################################################################################################
 
 # max number of threads to use in parallel
-max_threads = 8
+max_threads = 4
 
 # Trips
 fromm = 0              # set first departure time
-until = 24             # set last time
+until = 24              # set last time
 every = 10             # set frequency (every 10 minutes)
-time_threshold = 7200  # set a limit to maximum travel time (seconds) 2 hours
+time_threshold = 36000  # set a limit to maximum travel time (seconds) 10 hours... to include all census tracts
 
 # set date of trips... picked 2/6/19 (Wednesday) because the metra transit file has a few lines that do not begin service until 2/4/19.
+## dates for quarters... 12/5/18, 2/6/19, 6/5/19, 9/4/19, 12/4/19, 2/5/20 
 year= 2019
-month = 2
-day = 06
-mydate = 20190206
+month = 06
+day = 05
+mydate = 20190605
 
 
 
@@ -71,7 +72,7 @@ def do_the_stuff(h,m):
   req = otp.createRequest()
   req.setDateTime(year, month, day, h, m, 00)
   req.setMaxTimeSec(time_threshold) # 1h = 3600 seconds , 2h = 7200 seconds
-  req.setModes('WALK,BUS,RAIL,SUBWAY') # define transport mode : ("WALK, CAR, TRANSIT, TRAM,RAIL,SUBWAY,FUNICULAR,GONDOLA,CABLE_CAR,BUS")
+  req.setModes('WALK,  TRANSIT' ) # define transport mode : ("WALK, CAR, TRANSIT, TRAM,RAIL,SUBWAY,FUNICULAR,GONDOLA,CABLE_CAR,BUS")
   req.setClampInitialWait(0)                        # clamp the initial wait time to zero
   # for more routing options, check: http://dev.opentripplanner.org/javadoc/0.19.0/org/opentripplanner/scripting/api/OtpsRoutingRequest.html
 
@@ -94,7 +95,7 @@ def do_the_stuff(h,m):
       matrixCsv.addRow([ mydate, str(h) + ":" + str(m) + ":00", origin.getStringData('GEOID'), r.getIndividual().getStringData('GEOID'), r.getWalkDistance() , r.getTime()])
 
 	# Save the result
-  matrixCsv.save('C:/Workspace/TNC-Demand-Model/Outputs/OTP Travel Times/Transit/traveltime_matrix_'+ str(h)+"-"+str(m) + '.csv')
+  matrixCsv.save('C:/Workspace/TNC-Demand-Model/Outputs/OTP Travel Times/Transit/' + str(mydate) + '/traveltime_matrix_'+ str(h)+"-"+str(m) + '.csv')
 
 
 # ^ that ^ function has to be defined before it's called
