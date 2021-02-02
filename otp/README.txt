@@ -18,6 +18,7 @@ Run the following command where the pbf file is to filter the file to only chica
 	osmosis --rb illinois-latest.osm.pbf --bounding-box left=-87.9401 right=-87.524 bottom=41.6439 top=42.023 --wb chicago.osm.pbf
 
 *** Make sure the 64 bit java version is downloaded
+*** Make sure you download jython 2.7.2 before running the script
 
 1. java -Xmx10G -jar otp-1.4.0-shaded.jar --cache D:\TNC-Demand-Model\otp --basePath D:\TNC-Demand-Model\otp --build D:\TNC-Demand-Model\otp
 1.1 add --inMemory to the end to create an interative graph (map)
