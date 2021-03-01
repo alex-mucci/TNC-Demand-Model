@@ -7,6 +7,13 @@ from Create_Empty_OD_Matrix import create_empty_od_matrix
 from Create_Census_Tract_Centroids import create_census_tract_centroids
 from Create_Conflation_File import create_conflation_file
 from Format_Chi_RH_Data import format_chi_rh_data
+from Agg_OTP_Transit_Travel_Times import agg_otp_transit_times
+from Process_ACS_Data import process_acs_data 
+from Process_Employment_Data import process_QCEW_Data 
+from Process_Employment_Data import scale_LEHD_data
+from Link_Data_Together import daily_agg
+from Link_Data_Together import create_estimation_file_stats
+
 
 import pandas as pd
 
@@ -46,7 +53,37 @@ OUTFILE_RAW_CHI_RH = 'D:/TNC-Demand-Model/Inputs/Chicago Ride-Hailing/Raw_Trip_R
 OUTFILE_NO_SUPPRESSED_CHI_RH = 'D:/TNC-Demand-Model/Inputs/Chicago Ride-Hailing/Monthly_Trip_Records_No_Suppressed.csv'
 OUTFILE_CHI_RH = 'D:/TNC-Demand-Model/Outputs/2019_Weekday_Monthly_Ridehail_TOD.csv' 
 
+#Step 6 Constants
+##uses the same tracts shapefile, tods, and years constant that step 2 uses
+OTP_TRANSIT_INPUT_FOLDERS = r'D:/TNC-Demand-Model/Outputs/OTP Travel Times/Transit/'
+OUTPUT_FOLDER_PATH = 'D:/TNC-Demand-Model/Outputs/'
 
+#Step 7 Constants
+##uses the same tracts shapefile, tods, and years constant that step 2 uses
+ACS_INPUT_FOLDER_PATH = 'D:/TNC-Demand-Model/Inputs/ACS/'
+ACS_TABLES = ['DP05', 'S1101', 'S1501', 'S1901', 'DP04']
+
+#Step 8 Constants
+#uses the same years constant as step 2
+#uses the same output folder path constant as step 6
+QCEW_FOLDER_PATH = 'D:/TNC-Demand-Model/Inputs/QCEW'
+LEHD_INPUT_FOLDER_PATH = 'D:/TNC-Demand-Model/Inputs/LEHD/'
+CENSUS_BLOCKS_PATH = 'D:/TNC-Demand-Model/Inputs/Census Shapefiles/Illinois/Blocks/tl_2019_17_tabblock10.shp'
+ 
+ 
+#Step 9 Constants
+#uses the same output folder path constant as step 6
+ESTIMATION_FILE_FOLDER_PATH = 'D:/TNC-Demand-Model/Outputs/'
+AGG_RH = {'Trip Seconds':'mean', 'Trip Miles':'mean', 'Fare':'mean', 'Tip':'mean',
+       'Additional Charges':'mean', 'Trip Total':'mean', 'PRIVATE_TRIPS':'sum', 'SHARED_TRIPS':'sum',
+       'SCALED_SUP_PRIVATE_TRIPS':'sum', 'SCALED_SUP_SHARED_TRIPS':'sum', 'ALL_TRIPS':'sum'}
+ 
+#Step 10 Constants
+#uses the same output folder path constant as step 6
+DROP_COLS = ['ORIGIN',
+'DESTINATION',
+'MONTH',
+'CENSUS_TRACT_DESTINATION','TRACTCE10_PICKUP','TRACTCE10_DEST','TRACTCE10_RAC_ORIGIN','TRACTCE10_RAC_DESTINATION','TRACTCE10_WAC_ORIGIN','TRACTCE10_WAC_DESTINATION']
 
 # main function call
 if __name__ == "__main__":
@@ -80,16 +117,27 @@ if __name__ == "__main__":
     print('STEP 5 IS COMPLETE!')
     
     print('STEP 6: AGGREGATING OTP TRANSIT TRAVEL TIME OUTPUTS!')
-    
+    #otp_transit = agg_otp_transit_times(TODS, YEARS, OTP_TRANSIT_INPUT_FOLDERS, OUTPUT_FOLDER_PATH)
+    print('STEP 6 IS COMPLETE!')
     
     print('STEP 7: PROCESSING ACS DATA!')
+    acs = process_acs_data(TODS, YEARS, ACS_INPUT_FOLDER_PATH, ACS_TABLES, OUTPUT_FOLDER_PATH)
+    print('STEP 7 IS COMPLETE!')
     
+    print('STEP 8: PROCESSING EMPLOYMENT DATA!')
+    process_QCEW_Data(YEARS, QCEW_FOLDER_PATH, )
+    scale_LEHD_data(QCEW_FOLDER_PATH, LEHD_INPUT_FOLDER_PATH, CENSUS_BLOCKS_PATH, YEARS, OUTPUT_FOLDER_PATH)
+    print('STEP 8 IS COMPLETE!')
+
+    print('STEP 9: LINKING DATA TOGETHER TO CREATE ESTIMATION FILE!')
+    est = daily_agg(ESTIMATION_FILE_FOLDER_PATH, AGG_RH)
+    print('STEP 9 IS COMPLETE!')
     
-    print('STEP 8: PROCESSING LEHD DATA!')
-
-
-    print('STEP 9: PROCESSING GTFS DATA!')
-
-
-    print('STEP 10: LINKING DATA TOGETHER TO CREATE ESTIMATION FILE!')
-
+    print('STEP 10: CALCULATE STATS FOR ESTIMATION FILE!')
+    est = create_estimation_file_stats(DROP_COLS, est, OUTPUT_FOLDER_PATH)
+    
+    est_100 = est.head(100)
+    
+    est_100.to_csv('D:/TNC-Demand-Model/Outputs/Chi_Estimation_File (First 100 rows).csv')
+    
+    print('STEP 10 IS COMPLETE!')
