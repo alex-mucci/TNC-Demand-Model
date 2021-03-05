@@ -13,9 +13,9 @@ time_threshold = 36000  # set a limit to maximum travel time (seconds) 10 hours.
 # set date of trips... picked 2/6/19 (Wednesday) because the metra transit file has a few lines that do not begin service until 2/4/19.
 ## dates for quarters... 12/5/18, 2/6/19, 6/5/19, 9/4/19, 12/4/19, 2/5/20 
 year = 2019
-month = 12
-day = 04
-mydate = 20191204
+month = 06
+day = 05
+mydate = 20190605
 
 #MAKE SURE YOU CHANGE THE OUTPUT FILE TO WHERE YOU WANT IT TO GO. THE DRIVE OR FOLDERS MAY BE DIFFERENT
 

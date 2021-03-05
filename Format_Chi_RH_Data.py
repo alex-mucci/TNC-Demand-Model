@@ -72,7 +72,7 @@ def format_chi_rh_data(tods, years, agg, chi_rh_h5_filepath, suppressed_trips_fi
 	empty.DESTINATION = empty.DESTINATION.astype(float)
 	empty.ORIGIN = empty.ORIGIN.astype(float)
 	rh_final = empty.merge(df_final, how = 'left', left_on = ['ORIGIN', 'DESTINATION', 'YEAR', 'MONTH','TOD'], right_on = ['Pickup Census Tract', 'Dropoff Census Tract', 'YEAR', 'MONTH', 'TOD'])
-	rh_final = rh_final.fillna(0)
+	#rh_final = rh_final.fillna(0)
 	
 	print('Writing out the file!')
 	rh_final.to_csv(final_outfile)

@@ -23,20 +23,22 @@ def agg_otp_transit_times(tods, years, otp_transit_input_folders, output_folder)
             
         for month in months:
             #set the date variable to read the correct OTP transit travel times for the year-month-tod
-            if (year == 2019) & (month in [1,2]):
+            if (year == 2019) & (month in [2,3,4]):
                 date = '20190206'
-            elif (year == 2019) & (month in [3,4,5]):
+            elif (year == 2019) & (month in [5,6,7]):
                 date = '20190605'
-            elif (year == 2019) & (month in [6,7,8,9]):
-                date = '20190605'
-            elif (year == 2019) & (month in [6,7,8]):
+            elif (year == 2019) & (month in [8,9,10]):
                 date = '20190904'
-            elif (year == 2019) & (month in [9,10,11,12]):
+            elif (year == 2019) & (month in [11,12]):
                 date = '20191204'
+            elif (year == 2020) & (month in [2]:
+                date = '20191204'
+            elif (year == 2019) & (month in [1]):
+                date = '20181205'
+            elif (year == 2020) & (month in [2]:
+                date = '20200205'
             elif year == 2018:
                 date = '20181205'
-            elif year == 2020:
-                date = '20200205'
             else:
                 print('Bad month and year combination!')
                 
@@ -49,8 +51,9 @@ def agg_otp_transit_times(tods, years, otp_transit_input_folders, output_folder)
                 for filename in all_files:
                     #print('Working on file ' + filename)
                     df = pd.read_csv(filename, index_col=None, header=0)
-                    df['TOD'] = tod
                     df2 = df2.append(df)
+                    
+                df['TOD'] = tod
                 df2 = df2.groupby(by = ['origin', 'destination', 'TOD'], as_index = False).mean()
                 
             df2['MONTH'] = month

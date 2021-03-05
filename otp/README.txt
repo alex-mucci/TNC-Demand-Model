@@ -21,7 +21,7 @@ Run the following command where the pbf file is to filter the file to only chica
 *** Make sure you download jython 2.7.2 before running the script
 
 1. java -Xmx10G -jar otp-1.4.0-shaded.jar --cache D:\TNC-Demand-Model\otp --basePath D:\TNC-Demand-Model\otp --build D:\TNC-Demand-Model\otp
-1.1 add --inMemory to the end to create an interative graph (map)
+1.1 add --inMemory to the end to create an interative graph (map)... open it with http://localhost:8080/
 2. Run the following jupyter notebook: C:\Workspace\TNC-Demand-Model\Create Census Tract Centroids.pynb
 3. c:\jython2.7.2\bin\jython.exe -J-XX:-UseGCOverheadLimit -J-Xmx10G -Dpython.path=otp-1.4.0-shaded.jar python_script_loopHM_parallel.py
 
