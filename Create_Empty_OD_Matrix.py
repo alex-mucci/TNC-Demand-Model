@@ -8,6 +8,7 @@ def create_empty_od_matrix(tracts_shapefile_path, years, tods, outfile):
     
     tracts = gp.read_file(tracts_shapefile_path)
     
+    
     for year in years:  
         if year == 2018:
             months = [11,12]
@@ -31,7 +32,7 @@ def create_empty_od_matrix(tracts_shapefile_path, years, tods, outfile):
                     df['DESTINATION'] = tracts.geoid10
                     df['ORIGIN'] = tract
                     df2 = df2.append(df)
-                    
+
                 df2['TOD'] = tod
                 df3 = df3.append(df2)
                 
@@ -41,6 +42,7 @@ def create_empty_od_matrix(tracts_shapefile_path, years, tods, outfile):
         df4['YEAR'] = year
         df5 = df5.append(df4)
     
+
     df5.to_csv(outfile)
 
             

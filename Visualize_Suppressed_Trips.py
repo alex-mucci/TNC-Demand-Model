@@ -5,7 +5,7 @@ import geopandas as gp
     
 def visualize_suppressed_trips(grouped, tracts_shapefile_path, tract_centroids_file_path, outfile):     
     print('VISUALIZING SUPPRESSED TRIPS!')
-    grouped['TOTAL_SUP_TRIPS'] = grouped.SCALED_SUP_PRIVATE_TRIPS + grouped.SCALED_SUP_SHARED_TRIPS
+    grouped['TOTAL_SUP_TRIPS'] = grouped.SUP_PRIVATE_TRIPS + grouped.SUP_SHARED_TRIPS
     origin = grouped[['GEOID_PICKUP', 'TOTAL_SUP_TRIPS']].groupby(by = 'GEOID_PICKUP', as_index = False).sum()
     dest = grouped[['GEOID_DROPOFF', 'TOTAL_SUP_TRIPS']].groupby(by = 'GEOID_DROPOFF', as_index = False).sum()
     geo = gp.read_file(tracts_shapefile_path)
@@ -16,6 +16,8 @@ def visualize_suppressed_trips(grouped, tracts_shapefile_path, tract_centroids_f
     centroids = pd.read_csv(tract_centroids_file_path)
     centroids = gp.GeoDataFrame(centroids)
     
+    bins = np.quantile(origin['TOTAL_SUP_TRIPS'], [0,0.5,0.75,0.9,0.98,1])
+
     m = folium.Map([41.8781, -87.6298], zoom_start=11)
     
     
@@ -29,6 +31,7 @@ def visualize_suppressed_trips(grouped, tracts_shapefile_path, tract_centroids_f
      fill_color='BuGn',
      fill_opacity=0.6,
      line_opacity=0.2,
+     bins = bins,
      legend_name='Average Weekday Pickups',
      highlight = True).add_to(m)
 
@@ -41,6 +44,7 @@ def visualize_suppressed_trips(grouped, tracts_shapefile_path, tract_centroids_f
      fill_color='BuGn',
      fill_opacity=0.6,
      line_opacity=0.2,
+     bins = bins,
      legend_name='Average Weekday Dropoffs',
      highlight = True).add_to(m)
 

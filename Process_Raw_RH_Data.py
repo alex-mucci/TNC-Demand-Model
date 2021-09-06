@@ -48,9 +48,17 @@ def processRawData(infile, outfile, chunksize):
            
             chunk['YEAR'], chunk['MONTH'], chunk['DOW'], chunk['HOUR'] = chunk['Trip Start Timestamp'].dt.year, chunk['Trip Start Timestamp'].dt.month, chunk['Trip Start Timestamp'].dt.weekday, chunk['Trip Start Timestamp'].dt.hour
             
+            
+            ### NEED TO FIX ALL COLUMN NAMES SO THEY CAN BE USED IN STORE.SELECT FUNCTION... SPACES IN COLUMN NAMES ARE BAD
+            chunk['ORIGIN'] = chunk['Pickup Census Tract']
+            chunk['DESTINATION'] = chunk['Dropoff Census Tract']
+            chunk['TRAVEL_TIME'] = chunk['Trip Seconds']/60
+            chunk['TRIP_LENGTH'] = chunk['Trip Miles']
+            
+            
             chunk_weekday = chunk[chunk['DOW'].isin([0,1,2,3,4])]
             chunk_weekend = chunk[chunk['DOW'].isin([5,6])]
-
+            
             chunk_weekday_1 = chunk_weekday[chunk_weekday['HOUR'].isin([22,23,24,1,2,3,4,5])]
             chunk_weekday_2 = chunk_weekday[chunk_weekday['HOUR'].isin([6,7,8])]
             chunk_weekday_3 = chunk_weekday[chunk_weekday['HOUR'].isin([9,10,11,12,13,14,15])]

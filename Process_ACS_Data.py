@@ -89,7 +89,7 @@ def process_acs_data(tods, years, folder_path, acs_tables, output_folder):
     
     variables = df5.columns.drop(['YEAR', 'MONTH','TOD', 'CENSUS_TRACT'])
     for var in variables:    
-        df5[var] = df5[var].replace('-',np.nan)
+        df5[var] = df5[var].replace('-','0')
         df5[var] = df5[var].replace('250,000+','250000')
         df5[var] = df5[var].astype(float)
     
