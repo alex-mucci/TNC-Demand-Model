@@ -1,8 +1,5 @@
-Downloaded from the QCEW website: https://lehd.ces.census.gov/data/ 
+The LEHD data is downloaded here: https://lehd.ces.census.gov/data/
 
-The monthly total employment ratio is used to scale the 2018 LEHD employment total up to a future year. The ratio is 
-found by dividing the future employment total by the base year employment total.
+The data is unzipped from the .gz file using 7 unzip. 
 
-
-Currently, I manually select out the Cook County, Illinois and Massachusette county files. Might want to develop an 
-automated process before the nationwide application is made.
+The data dictionary can be found here: https://lehd.ces.census.gov/data/lodes/LODES7/LODESTechDoc7.4.pdf 
