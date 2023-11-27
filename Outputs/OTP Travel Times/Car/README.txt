@@ -1,3 +1,3 @@
 OTP calculates free flow travel time so all of the files have the same travel times throughout the day... 
 
-Need to look into finding congested travel time dataset (HERE, Inrix, 
+Need to look into finding congested travel time dataset (HERE, Inrix, etc)
