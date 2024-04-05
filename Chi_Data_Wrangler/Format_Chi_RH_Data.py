@@ -34,7 +34,7 @@ def format_chi_rh_data(tods, years, agg, chi_rh_h5_filepath, suppressed_trips_fi
 
 		#I decided to filter based on speed instead because it incorporates both travel time and distance
 		df2['SPEED'] = df2['Trip Miles']/(df2['TRAVEL_TIME_MINUTES']/60)
-		df2 = df2[df2['SPEED'] > 1]
+		df2 = df2[df2['SPEED'] > 0]
 		df2 = df2[df2['SPEED'] < 60]
 		
 		print('Maximum Travel Time')
