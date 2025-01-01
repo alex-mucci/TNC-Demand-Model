@@ -1,5 +1,5 @@
 Exploring TNC Trips Dataset - converts the TNC trip csv file into an h5 file. The notebook also produces plots for monthly
-trip totals and average fare. There is a plot for all trips, private trips, and shared trips for each of the 8 tods.
+trip totals and average fare. There is a plot for all trips, private trips, and shared trips for each of the 5 tods.
 
 The tods correspond to the following hours:
 
